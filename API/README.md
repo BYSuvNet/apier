@@ -56,11 +56,6 @@ Skriv GET reqiests för följande API:er
     * Gör en request som hämtar en specifik karaktär (t.ex. Rick Sanchez).
     * Gör en request som hämtar info om tre olika avsnitt.
 
-* DataAnalysAPI på suvnet.se!
-    * Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar!
-    * Gör en första GET request till https://suvnet.se/api/products
-    * Vad brukar det finnas för data i ett produktobjekt? Vad borde vi lägga till?
-
 ### POST Requests
 
 * Gör en första POST request till HttpBin
@@ -80,6 +75,15 @@ Välj ett API (ta ett som säger Auth = No) som intresserar dig och gör följan
 * Gör en GET request till API:et.
 * Hämta en specifik resurs (t.ex. en användare, ett inlägg, en produkt).
 * Har APIet någon POST-funktionalitet? Om ja, testa att skicka data.
+
+### DaAPI
+DataAnalysAPI på suvnet.se!
+    * Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar!
+    * Gör en första GET request till https://suvnet.se/api/products
+    * Vad brukar det finnas för data i ett produktobjekt? Vad borde vi lägga till?
+    * Vad mer kan finnas i ett sånt här system som skulle kunna bli relevant senare?
+    * Gör en POST request till https://suvnet.se/api/products
+        * Hur ska vi gör den så att det fungerar?
 
 ### Query Parameters
 
