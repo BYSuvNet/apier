@@ -78,12 +78,12 @@ Välj ett API (ta ett som säger Auth = No) som intresserar dig och gör följan
 
 ### DaAPI
 DataAnalysAPI på suvnet.se!
-    * Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar!
-    * Gör en första GET request till https://suvnet.se/api/products
-    * Vad brukar det finnas för data i ett produktobjekt? Vad borde vi lägga till?
-    * Vad mer kan finnas i ett sånt här system som skulle kunna bli relevant senare?
-    * Gör en POST request till https://suvnet.se/api/products
-        * Hur ska vi gör den så att det fungerar?
+* Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar!
+* Gör en första GET request till https://suvnet.se/api/products
+* Vad brukar det finnas för data i ett produktobjekt? Vad borde vi lägga till?
+* Vad mer kan finnas i ett sånt här system som skulle kunna bli relevant senare?
+* Gör en POST request till https://suvnet.se/api/products
+    * Hur ska vi gör den så att det fungerar?
 
 ### Query Parameters
 
