@@ -104,4 +104,4 @@ JSON används ofta som dataformat i API:er och det är därför viktigt att veta
 
 16. Skriv ett JSON-objekt som representerar en produkt som har egenskaperna 
 name, description och price. Skicka sedan detta JSON-objekt till DaApi med en POST-request.
-* URL: https://daapi.se/api/products
+* URL: https://www.suvnet.se/api/products
