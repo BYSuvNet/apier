@@ -81,3 +81,27 @@ name,description,ingredients, price
 "Caesar Salad","Fresh salad with romaine lettuce and dressing","romaine lettuce, croutons, Caesar dressing",6.49
 ```
 14. Vilka skillnader finns det mellan JSON och CSV?
+
+15. Här är ett JSON-objekt som innehåller två pizzor med ingredienser:
+```json
+{
+  "Maragarita": [ "tomat" , "ost" ],
+  "Kapprischåsa": [ "tomat", "ost", "skinka"] 
+}
+```
+Vad behöver ändras om dessa två pizzor istället ska ligga i en json-array?
+```json
+[
+  HÄR VILL JAG HA PIZZORNA ISTÄLLET
+]
+```
+
+-------
+
+# JSON och API:er
+
+JSON används ofta som dataformat i API:er och det är därför viktigt att veta hur det är strukturerat, speciellt när data skickas till en server för att den ska kunna behandla det korrekt.
+
+16. Skriv ett JSON-objekt som representerar en produkt som har egenskaperna 
+name, description och price. Skicka sedan detta JSON-objekt till DaApi med en POST-request.
+* URL: https://daapi.se/api/products
