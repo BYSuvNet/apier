@@ -105,3 +105,9 @@ JSON används ofta som dataformat i API:er och det är därför viktigt att veta
 16. Skriv ett JSON-objekt som representerar en produkt som har egenskaperna 
 name, description och price. Skicka sedan detta JSON-objekt till DaApi med en POST-request.
 * URL: https://www.suvnet.se/api/products
+* Vad händer om du inte skickar med namn?
+* Vad händer om du sätter price till ett negativt tal?
+
+17. Testa att skicka en GET-request till DaAPI för att hämta alla kunder (Se första sidan för enkel dokumentation av DaAPI: www.suvnet.se).
+* Titta på den kunddata du får tillbaka och fundera på vad du behöver skicka för att lägga till en ny kund till systemet.
+* Skriv en POST-request som lägger till en ny kund. Skicka sedan med en GET-request för att se att kunden verkligen har lagts till. Jämför den data du skickade med den data du får tillbaka.

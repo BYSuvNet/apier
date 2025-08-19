@@ -18,6 +18,8 @@ Några ord som är bra att känna till:
 
 ## Övningar
 
+1a timmen GET och POST. 2a timmen Public APIs + DaAPI.
+
 ### Tips i Hoppscotch
 * Spara varje anrop i en Collection “Dag1”.
 * Titta alltid på Status, Time, Size och Headers.
@@ -27,7 +29,7 @@ Några ord som är bra att känna till:
 
 ### GET Requests
 
-Skriv GET reqiests för följande API:er
+Skriv GET requests för följande API:er
 
 * Hämta ett slumpmässigt råd.
     * URL: https://api.adviceslip.com/advice
