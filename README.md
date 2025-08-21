@@ -13,6 +13,7 @@
 * POST requests med JSON som body
 
 ## Lektion 3: Avancerad API-användning
+* QUIZ JSON och API:er - Snabbrepetition (1h)
 * Environments och variables i Hoppscotch
 * Parametrar
 * Autentisering (API-nycklar, OAuth, JWT-tokens. Också rate limiting + paginering + filtrering)
