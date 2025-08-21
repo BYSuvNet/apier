@@ -108,6 +108,15 @@ I följande övningar kommer du att använda query parameters för att hämta sp
     * Spara CSV-informationen till en fil och importera den till Google Sheets för att se att all data är korrekt.
     * Gör ett pajdiagram i Google Sheets som visar fördelningen av produkter per kategori. Hur kan du gå tillväga för att lösa detta problem? Det finns flera sätt att göra det på.
 
+12. Gå till https://opendata.umea.se/api/explore/v2.1/console
+    * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden.
+    * Skicka en GET request till /catalog/datasets och välj ut ett dataset som intresserar dig.
+    * Använd sedan /catalog/datasetse/{datasetId}/records för att hämta ut data från det datasetet.
+    * Testa att använda olika queryparametrar för att filtrera datan. Limit är som standard satt till 10, öka den för att få ut mer data.
+    * vad används select till? 
+    * hur kan du använda where?
+    * hur kan du använda orderby?
+
 ### Authorization
 
 Det finns olika sätt att autentisera sig mot ett API. Vanliga metoder är:
@@ -118,7 +127,7 @@ Det finns olika sätt att autentisera sig mot ett API. Vanliga metoder är:
 * JWT (JSON Web Token): En token som innehåller information om användaren och signeras
 * OAuth2: En lite mer avancerad metod som används för att ge tredjepartsapplikationer tillgång till användardata utan att dela lösenordet. Det är vanligt i sociala medier och andra tjänster.
 
-12. Gp till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
+13. Gp till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
     * Skapa en GET Request för att hämta ut alla karaktärer.
     * Gör en GET request som hämtar ut info om karaktären Gandalf.
     * Ändra din GET request till att bara hämta ut 10 karaktärer.
@@ -165,11 +174,11 @@ function importCSVDataFromAPI() {
     * Sätt intervall (t.ex. varannan timme).
     * Spara och godkänn.
 
-13. Gå till https://www.dataportal.se/datasets?q=&f=
+14. Gå till https://www.dataportal.se/datasets?q=&f=
     * Hitta API:et för Luftkvalitet i Göteborgs stad.
     * Sätt upp ett App Script som hämtar hem denna data och skriver den till ett Google Sheet.
 
-14. Gör även ett App Script som hämtar hem produktdata från DaAPI i csv-format och skriver den till ett Google Sheet.
+15. Gör även ett App Script som hämtar hem produktdata från DaAPI i csv-format och skriver den till ett Google Sheet.
     * Sätt scriptet till att köra varannan timme.
     * Gör en formel i Sheets som visar den dyraste och en formel för billigaste produkten.
 

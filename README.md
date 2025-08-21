@@ -14,14 +14,14 @@
 
 ## Lektion 3: Avancerad API-användning
 * QUIZ JSON och API:er - Snabbrepetition (1h)
-* Environments och variables i Hoppscotch
-* Parametrar
-* Autentisering (API-nycklar, OAuth, JWT-tokens. Också rate limiting + paginering + filtrering)
-* API till Google Sheets
-* API från Google Sheets (Google Cloud)
+* Parametrar (+ Environments och variables i Hoppscotch) + övningar(2h)
+* Autentisering (API-nycklar, tokens. + rate limiting, paginering, filtrering) (1h)
+* API till Google Sheets CSV
+* API till Google Sheets JSON
 * Uppgift #2
 
 ## Lektion 4:
+* API från Google Sheets (Google Cloud)
 * Looker Studio och API:er
 
 ## Lektion 5:
