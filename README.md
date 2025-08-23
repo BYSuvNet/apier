@@ -16,17 +16,20 @@
 * QUIZ JSON och API:er - Snabbrepetition (1h)
 * Parametrar (+ Environments och variables i Hoppscotch) + övningar(2h)
 * Autentisering (API-nycklar, tokens. + rate limiting, paginering, filtrering) (1h)
-* API till Google Sheets CSV
-* API till Google Sheets JSON
-* Uppgift #2
+* Koppla API till Google Sheets (CSV). App Script, triggers (1h)
+* Uppgift #2 (1h)
 
 ## Lektion 4:
-* API från Google Sheets (Google Cloud)
-* Looker Studio och API:er
+* Repetition av API:er och JSON, Q&A. (1h)
+* Koppla API till Google Sheets (JSON). Sheet Triggers. (1h)
+* Begränsningar med Sheets. Transformation av data i App Scripts. Övningar (1h)
+* Google Sheets API (Google Cloud) (1h)
+* Looker Studio, Community Connectors och API:er
 
 ## Lektion 5:
-* LAB-dag, vi använder allt vi lärt oss hittils i praktiken.
+* Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id)
+* Kombination av API:er: Google Ads plus egen försäljningsdata
 
 ## Lektion 6:
 * Repetition och sammanfattning
-* Fördjupning på begäran
+* LAB-dag, vi använder allt vi lärt oss hittils i praktiken.

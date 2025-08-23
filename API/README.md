@@ -96,7 +96,7 @@ I REST API:er finns olika sätt att påverka vilken data som hämtas. Vanligt ä
 
 I följande övningar kommer du att använda query parameters för att hämta specifik data.
 
-10. The Gutheberg Project
+10. The Guthenberg Project
     * För att klara dessa uppgifter behöver du ta dokumentationen till hjälp: https://gutendex.com
     * Hämta böcker skrivna av Shakespeare
     * Hur många svenska böcker finns det och vilken är den mest nedladdade?
@@ -127,7 +127,7 @@ Det finns olika sätt att autentisera sig mot ett API. Vanliga metoder är:
 * JWT (JSON Web Token): En token som innehåller information om användaren och signeras
 * OAuth2: En lite mer avancerad metod som används för att ge tredjepartsapplikationer tillgång till användardata utan att dela lösenordet. Det är vanligt i sociala medier och andra tjänster.
 
-13. Gp till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
+13. Gå till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
     * Skapa en GET Request för att hämta ut alla karaktärer.
     * Gör en GET request som hämtar ut info om karaktären Gandalf.
     * Ändra din GET request till att bara hämta ut 10 karaktärer.
