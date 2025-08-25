@@ -182,6 +182,28 @@ function importCSVDataFromAPI() {
     * Sätt scriptet till att köra varannan timme.
     * Gör en formel i Sheets som visar den dyraste och en formel för billigaste produkten.
 
+### JSON -> Google Sheets
+
+```javascript
+function importJSON() {
+
+  // 1) Hämta JSON från API
+  const response = UrlFetchApp.fetch("https://www.suvnet.se/api/products");
+
+  const data = JSON.parse(response.getContentText()); // i data ligger nu en lista med produktobjekt
+
+  //Hämta en referens till vårt specifika blad i det aktuella Sheetet
+  const ss = SpreadsheetApp.getActive();
+  const sheet = ss.getSheetByName("json") || ss.insertSheet("json");
+  sheet.clearContents(); //tom arket
+
+  // 3) Skriv data till arket
+  sheet.getRange(2, 1, data.length, 9).setValues(
+    data.map(p => [p.id, p.name, p.description, p.price, p.brand, p.category, p.imageUrl, p.url, p.dateAdded])
+  );
+}
+```
+
 ### Google Sheets API
 
 Steg-för-steg: Skapa API-nyckel
