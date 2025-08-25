@@ -24,10 +24,11 @@
 * Koppla API till Google Sheets (JSON). Sheet Triggers. (1h)
 * Begränsningar med Sheets. Transformation av data i App Scripts. Övningar (1h)
 * Google Sheets API (Google Cloud) (1h)
-* Looker Studio, Community Connectors och API:er
+* Looker Studio, Community Connectors och API:er (2h)
 
 ## Lektion 5:
 * Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id)
+* Data-Danne kommer och snackar Data Lakes osv!
 * Kombination av API:er: Google Ads plus egen försäljningsdata
 
 ## Lektion 6:
