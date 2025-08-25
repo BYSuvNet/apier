@@ -203,6 +203,27 @@ function importJSON() {
   );
 }
 ```
+16. Dagens datum
+    * I cell A1, skriv texten "Senast uppdaterad:"
+    * I cell A2, se till att dagens datum skrivs in
+    * Tips: Du behöver ta reda på hur dagens datum kan hämtas med hjälpa av Google Apps Script.
+
+17. Ordertotal
+    * Ladda hem alla ordrar från DaAPI (https://suvnet.se/api/orders)
+    * Skriv in i ett Google Sheet orderdatum i första kolumnen och ordertotal i andra kolumnen.
+    * Tips: Du behöver bara modifera koden ovan på några få ställen...
+
+19. Produktinformation
+    * Hämta hem alla produkter från DaAPI (https://suvnet.se/api/products)
+    * Skriv produktkategori i första kolumnen
+    * Skriv antal produkter i varje kategori i andra kolumnen
+    * Skriv genomsnittspris för varje kategori i tredje kolumnen
+    * Tips: Du behöver hitta info om hur man räknar förekomster av unika värden i en array i JavaScript.
+
+20. Customers
+    * Åldersberäkning: Räkna ut kundernas ålder från birthDate och skriv ut genomsnittlig ålder.
+    * Kunder per stad: Gör en tabell som visar hur många kunder som bor i varje stad.
+    * Nya kunder senaste 30 dagarna: Filtrera på createdAt och lista de kunderna.
 
 ### Google Sheets API
 
