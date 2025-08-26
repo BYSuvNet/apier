@@ -137,7 +137,7 @@ Det finns olika sätt att autentisera sig mot ett API. Vanliga metoder är:
 
 https://docs.hoppscotch.io/documentation/features/authorization
 
-### API -> Google Sheets
+### CSV API -> Google Sheets
 
 #### Köra App Script i Google Sheets
 * Öppna ditt kalkylark (eller skapa ett nytt).
@@ -182,7 +182,7 @@ function importCSVDataFromAPI() {
     * Sätt scriptet till att köra varannan timme.
     * Gör en formel i Sheets som visar den dyraste och en formel för billigaste produkten.
 
-### JSON -> Google Sheets
+### JSON API -> Google Sheets
 
 ```javascript
 function importJSON() {
@@ -203,6 +203,14 @@ function importJSON() {
   );
 }
 ```
+ **sheet.getRange(2, 1, data.length, 9)** betyder: börja skriva i rad 2, kolumn 1, skriv så många rader som det finns i data (data.length), skriv 9 kolumner i bredd
+
+ **setValues(...)** tar en lista med listor och skriver in dem i det angivna området i arket.
+
+ **const cell = sheet.getRange('A2')** är ett alternativt sätt att ange en cell eller ett område.
+ ** cell.setValue("text")** skriver in "text" i cellen.
+
+
 16. Dagens datum
     * I cell A1, skriv texten "Senast uppdaterad:"
     * I cell A2, se till att dagens datum skrivs in
@@ -212,6 +220,11 @@ function importJSON() {
     * Ladda hem alla ordrar från DaAPI (https://suvnet.se/api/orders)
     * Skriv in i ett Google Sheet orderdatum i första kolumnen och ordertotal i andra kolumnen.
     * Tips: Du behöver bara modifera koden ovan på några få ställen...
+
+18. Produkter under 100 kr
+    * Ladda hem alla produkter från DaAPI (https://suvnet.se/api/products)
+    * Lista bara produkter under 100 kr i ett Google Sheet
+    * Tips: Du behöver använda JavaScript-metoden filter() för att lösa detta.
 
 19. Produktinformation
     * Hämta hem alla produkter från DaAPI (https://suvnet.se/api/products)
@@ -224,6 +237,8 @@ function importJSON() {
     * Åldersberäkning: Räkna ut kundernas ålder från birthDate och skriv ut genomsnittlig ålder.
     * Kunder per stad: Gör en tabell som visar hur många kunder som bor i varje stad.
     * Nya kunder senaste 30 dagarna: Filtrera på createdAt och lista de kunderna.
+
+
 
 ### Google Sheets API
 
