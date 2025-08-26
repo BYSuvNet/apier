@@ -1,0 +1,16 @@
+{
+  "timeZone": "Europe/Berlin",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+
+  "dataStudio": {
+    "name": "Bob x 3",
+    "logoUrl": "https://cataas.com/cat",
+    "company": "DAS24",
+    "companyUrl": "https://www.suvnet.se/",
+    "addonUrl": "https://www.suvnet.se",
+    "supportUrl": "https://www.suvnet.se",
+    "description": "Ger dig Bob x 3!",
+    "sources": ["bob"]
+  }
+}
