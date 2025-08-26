@@ -18,5 +18,5 @@ console.log(sheet[0][1]); // Output: bob
 console.log(sheet[1][2]); // Output: 28
 console.log(sheet[2][0]); // Output: New York
 
-console.log(sheet[0].length); // Output: 3
+console.log(sheet.length); // Output: 3
 console.log(sheet[1][0] + sheet[1][1]); // Output: 55
