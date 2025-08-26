@@ -239,7 +239,6 @@ Referense: https://developers.google.com/workspace/sheets/api/reference/rest
 6. Hämta hem ett publikt Google Sheet som du vill använda för tester:
     * GET https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}/values/Sheet1!A1:Z100?key=DIN_API_KEY
 
-https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}/values/Sheet1!A1:Z100?key=AIzaSyAxb75JXLIStw9LMFe4IF0A5h1oOiWiEoo
 
 
 
@@ -301,3 +300,41 @@ function importCSVDataFromAPI() {
 * Lägg till en variabel som heter "apiKey" och sätt värdet till din API-nyckel från Google Cloud som är länkat till Google Sheets.
 * Använd Google Sheet API för att hämta värdet i cellen A10 och lagra det i en variabel som heter "cellValue"
 * Skapa en GET request som använder variabeln "cellValue" som URL
+
+Kjell och Company via google search "wifi router"
+utm_source=google
+utm_medium=cpc
+utm_campaign=SE | Pmax | Nätverk
+gad_source=1
+gad_campaignid=21039760489
+
+Webhallen via google search "wifi router"
+utm_source=google
+utm_medium=cpc
+utm_campaign=Pmax | Price_Under_3000
+gad_source=1
+gad_campaignid=21025599808
+
+NetOnNet via youtube "wifi router"
+utm_source=google
+utm_medium=cpc
+utm_campaign=p-se-netonnet-shopping-supplier-tplink
+gad_source=2
+gad_campaignid=22872278592
+gbraid=0AAAAAD-k_JZrPZoCTKUVyYEdV1ctKh1R_
+gclid=EAIaIQobChMIlaikz5KfjwMVzrGDBx2QJTeIEAQYASABEgKlyPD_BwE
+
+Kjell och Company via Youtube "wifi router"
+utm_source=google
+utm_medium=cpc
+utm_campaign=SE | Pmax | Nätverk
+gad_source=2
+gad_campaignid=21039760489
+gbraid=0AAAAADhvoIZ-by3wevYG8nluxOYzVqYZI
+gclid=EAIaIQobChMIlaikz5KfjwMVzrGDBx2QJTeIEAQYBiABEgLvC_D_BwE
+
+https://www.lenovo.com/se/sv/workstations/
+cid=se:programmatic:rwqtsy
+gad_source=2
+gad_campaignid=22742696780
+gclid=EAIaIQobChMI9Mbm4pOfjwMVVM47Ah284ivUEAEYASAAEgI_efD_BwE

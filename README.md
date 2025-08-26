@@ -25,6 +25,7 @@
 * Begränsningar med Sheets. Transformation av data i App Scripts. Övningar (3h)
 
 ## Lektion 5:
+* Repetition JSON Objekt och Arrayer i Javascript (1h)
 * Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (1h)
 * Looker Studio, Community Connectors och API:er (2h)
 * Data-Danne kommer och snackar Data Lakes osv!
