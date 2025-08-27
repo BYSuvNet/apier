@@ -26,12 +26,13 @@
 
 ## Lektion 5:
 * Repetition JSON Objekt och Arrayer i Javascript (1h)
-* Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (1h)
-* Looker Studio, Community Connectors och API:er (2h)
-* Data-Danne kommer och snackar Data Lakes osv!
+* Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (2h)
+* Looker Studio, Community Connectors och API:er (1h)
+* Data-Danne kommer och snackar Data Lakes osv! (2h)
 
 ## Lektion 6:
+* Looker Studio fortsättning. DaAPI Connector (1h)
+* Kursutvärdering (1h)
+* Looker Studio fortsättning (1h)
 * Google Sheets API (Google Cloud) (1h)
-* Repetition och sammanfattning
-* Kombination av API:er: Google Ads plus egen försäljningsdata
-* LAB-dag, vi använder allt vi lärt oss hittils i praktiken.
+* LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
