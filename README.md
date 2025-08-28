@@ -35,9 +35,13 @@
 * Looker Studio fortsättning. DaAPI Connector (1h)
 * Kursutvärdering (1h)
 * Looker Studio fortsättning (1h)
-* Google Sheets API (Google Cloud) (1h)
 * LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
 
+## Blev aldrig av:
+
+* Google Cloud Platform (GCP) introduktion (1h)
+* Google Sheets API (1h)
+* GraphQL vs REST API (1h)
 
 -----
 
