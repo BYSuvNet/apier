@@ -28,6 +28,7 @@
 * Repetition JSON Objekt och Arrayer i Javascript (1h)
 * Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (2h)
 * Looker Studio, Community Connectors och API:er (1h)
+    * https://codelabs.developers.google.com/codelabs/community-connectors
 * Data-Danne kommer och snackar Data Lakes osv! (2h)
 
 ## Lektion 6:
