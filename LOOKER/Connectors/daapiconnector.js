@@ -34,11 +34,11 @@ function getFieldsForResource_(resource) {
     // status är en siffra i din JSON (0,1,...) – vi exponerar som TEXT så det går att labela i rapport
     f.newDimension().setId('status').setName('Status').setType(types.TEXT);
     // orderDate -> YEAR_MONTH_DAY
-    f.newDimension().setId('dateCreated').setName('Date Created').setType(types.YEAR_MONTH_DAY);
+    f.newDimension().setId('orderDateUtc').setName('Order Date UTC').setType(types.YEAR_MONTH_DAY);
     // items.length som SUM-metrik
     f.newMetric().setId('items').setName('Items Count').setType(types.NUMBER).setAggregation(aggs.SUM);
     // totalAmount som SUM-metrik
-    f.newMetric().setId('total').setName('Total Amount').setType(types.NUMBER).setAggregation(aggs.SUM);
+    f.newMetric().setId('totalAmount').setName('Total Amount').setType(types.NUMBER).setAggregation(aggs.SUM);
     return f;
   }
 
@@ -102,8 +102,9 @@ function mapOrder_(fid, o) {
     case 'customerId':  return Number(o.customerId);
     case 'status':      return String(o.status); // 0/1/... -> "0"/"1"/...
     case 'items':       return Array.isArray(o.items) ? o.items.length : Number(o.items);
-    case 'total':       return Number(o.totalAmount); // fältet heter totalAmount hos dig
-    case 'dateCreated': return toYMD_(o.orderDate);   // datumet heter orderDate hos dig
+    case 'totalAmount':       return Number(o.totalAmount); 
+    case 'orderDateUtc': return toYMD_(o.orderDateUtc);   // datumet heter orderDate hos dig
+    case 'currency': return String(o.currency);
   }
   return null;
 }
