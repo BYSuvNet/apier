@@ -37,3 +37,11 @@
 * Looker Studio fortsättning (1h)
 * Google Sheets API (Google Cloud) (1h)
 * LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
+
+
+-----
+
+### TODO
+
+* Lägg in youtube-videos och länkar till de olika momenten
+* Lägg in länkar till materialet i respektive moment
