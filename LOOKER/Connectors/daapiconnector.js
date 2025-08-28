@@ -48,7 +48,7 @@ function getFieldsForResource_(resource) {
   f.newDimension().setId('email').setName('Email').setType(types.TEXT);
   f.newDimension().setId('city').setName('City').setType(types.TEXT);
   f.newDimension().setId('country').setName('Country').setType(types.TEXT);
-  f.newDimension().setId('birthday').setName('Birthday').setType(types.YEAR_MONTH_DAY);
+  f.newDimension().setId('birthDate').setName('Birthdate').setType(types.YEAR_MONTH_DAY);
   f.newDimension().setId('dateCreated').setName('Date Created').setType(types.YEAR_MONTH_DAY);
   return f;
 }
@@ -88,7 +88,7 @@ function mapCustomer_(fid, c) {
     case 'id':          return Number(c.id);
     case 'name':        return c.name;
     case 'email':       return c.email;
-    case 'birthday':    return toYMD_(c.birthday);
+    case 'birthDate':    return toYMD_(c.birthDate);
     case 'city':        return c.city || (c.address && c.address.city);
     case 'country':     return c.country || (c.address && c.address.country);
     case 'dateCreated': return toYMD_(c.dateCreated);
