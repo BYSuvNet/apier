@@ -1,5 +1,7 @@
 ## Övningar
 
+Använd DaAPI Connectorn i Looker Studio för att göra följande övningar.
+
 ### Kunder
 * Hur många kunder har vi per stad?
 * Hur många kunder har vi i olika ålderssegment? (0-18, 19-25, 26-35, 36-45, 46-55, 56-65, 66+)
