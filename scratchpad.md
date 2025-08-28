@@ -338,3 +338,11 @@ cid=se:programmatic:rwqtsy
 gad_source=2
 gad_campaignid=22742696780
 gclid=EAIaIQobChMI9Mbm4pOfjwMVVM47Ah284ivUEAEYASAAEgI_efD_BwE
+
+-----
+
+[ ] fixa så ålder kommer in i data till looker
+[ ] lägg in costprice i produktdatan så att vi kan räkna ut marginal
+[ ] skapa mer ordermockdata så att vi kan jämföra månadsinkomster med varandra tex
+[ ] eller kolla vilken åldersgrupp som köper mest och som ger mest marginal
+[ ] få in enkel googleads mockdata för att räkna ut ROAS, POAS, CPA
