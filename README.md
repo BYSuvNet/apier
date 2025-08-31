@@ -42,6 +42,7 @@
 * Google Cloud Platform (GCP) introduktion (1h)
 * Google Sheets API (1h)
 * GraphQL vs REST API (1h)
+* Looker Studio Formula Language (1h)
 
 -----
 
