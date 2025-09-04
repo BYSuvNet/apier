@@ -142,7 +142,7 @@ function mapCustomer_(fid, c) {
     case 'birthDate':   return toYMD_(c.birthDate);
     case 'city':        return c.city || (c.address && c.address.city);
     case 'country':     return c.country || (c.address && c.address.country);
-    case 'dateCreated': return toYMD_(c.dateCreated);
+    case 'dateCreated': return toYMD_(c.createdAt);
   }
   return null;
 }
