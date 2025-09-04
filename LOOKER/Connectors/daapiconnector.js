@@ -35,7 +35,7 @@ function getFieldsForResource_(resource) {
     f.newDimension().setId('id').setName('ID').setType(types.NUMBER);
     f.newDimension().setId('customerId').setName('Customer ID').setType(types.NUMBER);
     f.newDimension().setId('status').setName('Status').setType(types.TEXT);
-    f.newDimension().setId('orderDateUtc').setName('Order Date UTC').setType(types.YEAR_MONTH_DAY);
+    f.newDimension().setId('orderDateUtc').setName('Order Date').setType(types.YEAR_MONTH_DAY);
     f.newDimension().setId('currency').setName('Currency').setType(types.TEXT);
     f.newMetric().setId('items').setName('Items Count').setType(types.NUMBER).setAggregation(aggs.SUM);
     f.newMetric().setId('totalAmount').setName('Total Amount').setType(types.NUMBER).setAggregation(aggs.SUM);
@@ -89,13 +89,19 @@ function getData(request) {
   var url = base;
 
   if (resource === 'orders' || resource === 'orderItems') {
+    console.log("orders eller orderitems");
     var dr = request.dateRange || {};
+    console.log(dr);
     var fromIso = yyyymmddToIso_(dr.startDate);
     var toIso   = yyyymmddToIso_(dr.endDate);
-    if (fromIso && toIso) {
-      url = base + '?from=' + encodeURIComponent(fromIso) + '&to=' + encodeURIComponent(toIso);
-    }
+    // if (fromIso && toIso) {
+      console.log("sätter url");
+      url = base + '?from=' + encodeURIComponent(dr.startDate) + '&to=' + encodeURIComponent(dr.endDate);
+      console.log("1" + url);
+    // }
   }
+
+  console.log("2" + url);
 
   var resp = UrlFetchApp.fetch(url);
   var data = JSON.parse(resp.getContentText()); // JSON-array av orders
@@ -178,11 +184,19 @@ function mapOrderItem_(fid, o, it) {
 }
 
 /** Helpers **/
+// function toYMD_(iso) {
+//   if (!iso) return null;
+//   var d = new Date(iso);
+//   return Utilities.formatDate(d, 'UTC', 'yyyyMMdd');
+// }
+
 function toYMD_(iso) {
   if (!iso) return null;
-  var d = new Date(iso);
-  return Utilities.formatDate(d, 'UTC', 'yyyyMMdd');
+  var s = String(iso).trim();
+  var m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return m ? (m[1] + m[2] + m[3]) : null;
 }
+
 function yyyymmddToIso_(yyyymmdd) {
   if (!yyyymmdd || yyyymmdd.length !== 8) return null;
   return yyyymmdd.slice(0,4) + '-' + yyyymmdd.slice(4,6) + '-' + yyyymmdd.slice(6,8);
