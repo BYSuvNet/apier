@@ -37,7 +37,7 @@
 * Looker Studio fortsättning (1h)
 * LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
 
-## Blev aldrig av:
+## Om tid finns:
 
 * Google Cloud Platform (GCP) introduktion (1h)
 * Google Sheets API (1h)
