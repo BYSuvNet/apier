@@ -5,14 +5,14 @@
 * Vad är HTTP?
 * Vad är ett API?
 * Publika api:er
-* GET requests med curl och Hoppscotch
+* GET requests med Hoppscotch
 
 Länkar:
-HTTP Översikt: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
-HTTP Messages: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages
-HTTP Metoder: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods
-Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers
-Statuskoder: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+HTTP Översikt: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview 
+HTTP Messages: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages 
+HTTP Metoder: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods 
+Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers 
+Statuskoder: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status 
 
 ## Lektion 2: JSON och POST-Requests
 * JSON grundläggande struktur
