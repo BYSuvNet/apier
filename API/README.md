@@ -63,30 +63,31 @@ Skriv GET requests för följande API:er
     * Gör en valfri GET request till det api:et. Vad får du tillbaka för data? I vilket format är den?
     * Hämta en specifik resurs om möjligt, hitta annars ett annat api som stöder det (t.ex. en användare, ett inlägg, en produkt).
     * Har api:et någon POST-funktionalitet? Om ja, testa att skicka data.
-    * Hittar du något api som skickar tillbaka data som skulle gå att visualisera/analysera eller göra någon form av statistik på? Hur skulle du då tex kunna göra för att göra en graf i Google Sheets med den datan?
+
+7. Hittar du något api som skickar tillbaka data som skulle gå att visualisera/analysera eller göra någon form av statistik på? Hur skulle du då tex kunna göra för att göra en graf i Google Sheets med den datan?
 
 ### POST Requests
 
-6. Gör en första POST request till HttpBin
+8. Gör en första POST request till HttpBin
     * URL: https://httpbin.org/post
     * Prova att lägga till en body med något innehåll. Vad krävs för att du ska kunan göra det?
     * Vad får du för resultat tillbaka?
 
-7. Skicka Todo-data till jsonplaceholder
+9. Skicka Todo-data till jsonplaceholder
     * URL: https://jsonplaceholder.typicode.com
     * Skicka med ett JSON-objekt som innehåller namn, email och adress.
     * Vad får du tillbaka? Vad betyder det?
 
 ### Valfritt API
 
-8. Kolla på denna site: https://github.com/public-apis/public-apis
+10. Kolla på denna site: https://github.com/public-apis/public-apis
     * Välj ett API (ta ett som säger Auth = No) som intresserar dig och gör följande:
     * Gör en GET request till API:et.
     * Hämta en specifik resurs (t.ex. en användare, ett inlägg, en produkt).
     * Har APIet någon POST-funktionalitet? Om ja, testa att skicka data.
 
 ### DaAPI
-9. DataAnalysAPI på suvnet.se!
+11. DataAnalysAPI på suvnet.se!
     * Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar!
      Gör en första GET request till https://suvnet.se/api/products
     * Vad brukar det finnas för data i ett produktobjekt? Vad borde vi lägga till?
@@ -103,7 +104,7 @@ I REST API:er finns olika sätt att påverka vilken data som hämtas. Vanligt ä
 
 I följande övningar kommer du att använda query parameters för att hämta specifik data.
 
-10. The Guthenberg Project
+12. The Guthenberg Project
     * För att klara dessa uppgifter behöver du ta dokumentationen till hjälp: https://gutendex.com
     * Hämta böcker skrivna av Shakespeare
     * Hur många svenska böcker finns det och vilken är den mest nedladdade?
@@ -111,11 +112,11 @@ I följande övningar kommer du att använda query parameters för att hämta sp
     * Hur många engelska böcker med copyright finns det contra utan copyright?
     * Vilken var den första svenska boken på temat 'adventure' som lades till?
 
-11. Gör en GET request till DaAPI för att hämta produkter i CSV-format! Kolla [förstasidan](https://suvnet.se) för att se hur du kan göra det.
+13. Gör en GET request till DaAPI för att hämta produkter i CSV-format! Kolla [förstasidan](https://suvnet.se) för att se hur du kan göra det.
     * Spara CSV-informationen till en fil och importera den till Google Sheets för att se att all data är korrekt.
     * Gör ett pajdiagram i Google Sheets som visar fördelningen av produkter per kategori. Hur kan du gå tillväga för att lösa detta problem? Det finns flera sätt att göra det på.
 
-12. Gå till https://opendata.umea.se/api/explore/v2.1/console
+14. Gå till https://opendata.umea.se/api/explore/v2.1/console
     * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden.
     * Skicka en GET request till /catalog/datasets och välj ut ett dataset som intresserar dig.
     * Använd sedan /catalog/datasetse/{datasetId}/records för att hämta ut data från det datasetet.
@@ -134,7 +135,7 @@ Det finns olika sätt att autentisera sig mot ett API. Vanliga metoder är:
 * JWT (JSON Web Token): En token som innehåller information om användaren och signeras
 * OAuth2: En lite mer avancerad metod som används för att ge tredjepartsapplikationer tillgång till användardata utan att dela lösenordet. Det är vanligt i sociala medier och andra tjänster.
 
-13. Gå till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
+15. Gå till https://the-one-api.dev/account och signa upp för ett konto. Läs dokumentationen för att se hur du ska använda din API-nyckel.
     * Skapa en GET Request för att hämta ut alla karaktärer.
     * Gör en GET request som hämtar ut info om karaktären Gandalf.
     * Ändra din GET request till att bara hämta ut 10 karaktärer.
@@ -181,11 +182,11 @@ function importCSVDataFromAPI() {
     * Sätt intervall (t.ex. varannan timme).
     * Spara och godkänn.
 
-14. Gå till https://www.dataportal.se/datasets?q=&f=
+16. Gå till https://www.dataportal.se/datasets?q=&f=
     * Hitta API:et för Luftkvalitet i Göteborgs stad.
     * Sätt upp ett App Script som hämtar hem denna data och skriver den till ett Google Sheet.
 
-15. Gör även ett App Script som hämtar hem produktdata från DaAPI i csv-format och skriver den till ett Google Sheet.
+17. Gör även ett App Script som hämtar hem produktdata från DaAPI i csv-format och skriver den till ett Google Sheet.
     * Sätt scriptet till att köra varannan timme.
     * Gör en formel i Sheets som visar den dyraste och en formel för billigaste produkten.
 
@@ -218,29 +219,29 @@ function importJSON() {
  ** cell.setValue("text")** skriver in "text" i cellen.
 
 
-16. Dagens datum
+18. Dagens datum
     * I cell A1, skriv texten "Senast uppdaterad:"
     * I cell A2, se till att dagens datum skrivs in
     * Tips: Du behöver ta reda på hur dagens datum kan hämtas med hjälpa av Google Apps Script.
 
-17. Ordertotal
+19. Ordertotal
     * Ladda hem alla ordrar från DaAPI (https://suvnet.se/api/orders)
     * Skriv in i ett Google Sheet orderdatum i första kolumnen och ordertotal i andra kolumnen.
     * Tips: Du behöver bara modifera koden ovan på några få ställen...
 
-18. Produkter under 100 kr
+20. Produkter under 100 kr
     * Ladda hem alla produkter från DaAPI (https://suvnet.se/api/products)
     * Lista bara produkter under 100 kr i ett Google Sheet
     * Tips: Du behöver använda JavaScript-metoden filter() för att lösa detta.
 
-19. Produktinformation
+21. Produktinformation
     * Hämta hem alla produkter från DaAPI (https://suvnet.se/api/products)
     * Skriv produktkategori i första kolumnen
     * Skriv antal produkter i varje kategori i andra kolumnen
     * Skriv genomsnittspris för varje kategori i tredje kolumnen
     * Tips: Du behöver hitta info om hur man räknar förekomster av unika värden i en array i JavaScript.
 
-20. Customers
+22. Customers
     * Åldersberäkning: Räkna ut kundernas ålder från birthDate och skriv ut genomsnittlig ålder.
     * Kunder per stad: Gör en tabell som visar hur många kunder som bor i varje stad.
     * Nya kunder senaste 30 dagarna: Filtrera på createdAt och lista de kunderna.
