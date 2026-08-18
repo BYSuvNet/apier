@@ -58,6 +58,13 @@ Skriv GET requests för följande API:er
     * Gör en request som hämtar en specifik karaktär (t.ex. Rick Sanchez).
     * Gör en request som hämtar info om tre olika avsnitt.
 
+6. Hitta något api i denna lista https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ och:
+    * Undersök om api:et har någon dokumentation. Om ja, titta på den.
+    * Gör en valfri GET request till det api:et. Vad får du tillbaka för data? I vilket format är den?
+    * Hämta en specifik resurs om möjligt, hitta annars ett annat api som stöder det (t.ex. en användare, ett inlägg, en produkt).
+    * Har api:et någon POST-funktionalitet? Om ja, testa att skicka data.
+    * Hittar du något api som skickar tillbaka data som skulle gå att visualisera/analysera eller göra någon form av statistik på? Hur skulle du då tex kunna göra för att göra en graf i Google Sheets med den datan?
+
 ### POST Requests
 
 6. Gör en första POST request till HttpBin
