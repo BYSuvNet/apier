@@ -341,8 +341,43 @@ gclid=EAIaIQobChMI9Mbm4pOfjwMVVM47Ah284ivUEAEYASAAEgI_efD_BwE
 
 -----
 
-[ ] fixa så ålder kommer in i data till looker
-[ ] lägg in costprice i produktdatan så att vi kan räkna ut marginal
-[ ] skapa mer ordermockdata så att vi kan jämföra månadsinkomster med varandra tex
-[ ] eller kolla vilken åldersgrupp som köper mest och som ger mest marginal
 [ ] få in enkel googleads mockdata för att räkna ut ROAS, POAS, CPA
+
+Generera orderdata.
+
+Jag vill att du ska generera orderdata enligt denna struktur: 
+
+[
+  {
+    "id": 1698,
+    "orderDateUtc": "2025-06-29T23:33:17Z",
+    "customerId": 192,
+    "currency": "SEK",
+    "totalAmount": 175.45,
+    "items": [
+      {
+        "id": 4640,
+        "orderId": 1698,
+        "productId": 9,
+        "quantity": 1,
+        "price": 175.45
+      }
+    ],
+    "status": 2
+  }
+]
+
+Använd dig av bifogade filer för kunder och produkter, så att customerId och productId stämmer.
+Använd dig av dessa regler:
+* Generera ordrar från 2024-01-01 till 2025-08-31
+* De flesta kunder ska ha 1 till 3 ordrar. Några ska ha 0, några ska ha 4-5 ordrar, några få ska ha 6-10 ordrar.
+* Det ska vara försäljningstoppar i april och december, resten av tiden ska det ligga ganska jämt fördelat.
+* Kategorin survival ska vara tydligt överrepresenterad bland kunder 30-40 år
+* Bland pensionärer ska kategorin Picnic vara överrepresenterad
+* Varje order ska ha 1-5 produkter, där det vanligaste är 1-2 produkter. Några enstaka ordrar kan sticka iväg lite
+* Priset på produkterna ska vara det som står i produktfilen
+* Det ska läggas bara få ordrar under juli och augusti
+* Orderstatus ska vara 3 (Delivered) i 80% av fallen, 2 (Shipped) i 10% av fallen, 1 (Processing) i 0% av fallen och 4 (Cancelled) i 5% av fallen samt 0 (Pending) i 5% av fallen
+* Folk i Stockholm ska köpa de dyraste produkterna
+* Folk i Skåne ska köpa flest antal produkter
+* Folk i Småland ska köpa de billigaste produkterna

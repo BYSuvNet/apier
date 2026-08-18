@@ -5,7 +5,7 @@
 * Vad är HTTP?
 * Vad är ett API?
 * Publika api:er
-* GET requests
+* GET requests med curl och Hoppscotch
 
 ## Lektion 2: JSON och POST-Requests
 * JSON grundläggande struktur
@@ -29,7 +29,6 @@
 * Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (2h)
 * Looker Studio, Community Connectors och API:er (1h)
     * https://codelabs.developers.google.com/codelabs/community-connectors
-* Data-Danne kommer och snackar Data Lakes osv! (2h)
 
 ## Lektion 6:
 * Looker Studio fortsättning. DaAPI Connector (1h)
