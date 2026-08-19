@@ -112,7 +112,12 @@ I REST API:er finns olika sätt att påverka vilken data som hämtas. Vanligt ä
 
 I följande övningar kommer du att använda query parameters för att hämta specifik data.
 
-1. The Guthenberg Project
+1. Gå till https://api.nasa.gov/ och klicka in dig på "Asteroids - NeoWs".
+* Använd APIet för att hämta hem alla asteroider som passerade jorden under det kommande dygnet. Finns det någon som är större än 1 km i diameter? Finns det någon som är farlig för vår överlevnad?
+
+Var extra uppmärksam på att du behöver skicka med en API-nyckel i din GET request, samt att du behöver ange ett datumintervall för att få data. Läs dokumentationen noga.
+
+2. The Guthenberg Project
     * För att klara dessa uppgifter behöver du ta dokumentationen till hjälp: https://gutendex.com
     * Hämta böcker skrivna av Shakespeare
     * Hur många svenska böcker finns det och vilken är den mest nedladdade?
@@ -120,12 +125,12 @@ I följande övningar kommer du att använda query parameters för att hämta sp
     * Hur många engelska böcker med copyright finns det contra utan copyright?
     * Vilken var den första svenska boken på temat 'adventure' som lades till?
 
-2. Gör en GET request till DaAPI för att hämta produkter i CSV-format! Kolla [förstasidan](https://suvnet.se) för att se hur du kan göra det.
+3. Gör en GET request till DaAPI för att hämta produkter i CSV-format! Kolla [förstasidan](https://suvnet.se) för att se hur du kan göra det.
     * Spara CSV-informationen till en fil och importera den till Google Sheets för att se att all data är korrekt.
     * Gör ett pajdiagram i Google Sheets som visar fördelningen av produkter per kategori. Hur kan du gå tillväga för att lösa detta problem? Det finns flera sätt att göra det på.
 
-3. Gå till https://opendata.umea.se/api/explore/v2.1/console
-    * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden.
+4. Gå till https://opendata.umea.se/api/explore/v2.1/console
+    * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden. (SWAGGER?!)
     * Skicka en GET request till /catalog/datasets och välj ut ett dataset som intresserar dig.
     * Använd sedan /catalog/datasetse/{datasetId}/records för att hämta ut data från det datasetet.
     * Testa att använda olika queryparametrar för att filtrera datan. Limit är som standard satt till 10, öka den för att få ut mer data.
