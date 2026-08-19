@@ -84,6 +84,24 @@ Skriv GET requests för följande API:er
 * Vad brukar det finnas för data i ett produktobjekt? Borde vi lägga till något?
 * Vad mer kan finnas i ett sånt här system som skulle kunna bli relevant senare?
 * Gör en POST request till https://suvnet.se/api/products för att lägga till en ny produkt till databasen. Hur ska du göra den så att det fungerar? Dvs, returnerar 201 Created?
+* Vad händer om du försöker skapa en produkt med felaktig data?
+
+11. Lägg till en ny kund i databasen.
+    * Undersök hur befintlig data ser ut med en GET request till https://suvnet.se/api/customers
+    * Skapa en POST request som lägger till en ny kund.
+    * Validera att det gick bra genom att se att statuskoden är 201 Created och att du kan hämta ut kunden med en GET request (Det räcker att hämta ut den specifika kunden med kundens id, inte alla kunder).
+
+12. Undersök recensioner för en produkt. Kanske finns det inga. Prova i så fall att lägga till en till produkten med id 1.
+* Vad får du för resultat om du försöker hitta recensioner för en produkt som inte har några? Vad betyder det?
+* Vad händer om du försöker ge för hög eller låg rating? Tex -5 eller 100.
+
+13. Du kan hämta hem alla ordrar med en GET request till https://suvnet.se/api/orders. Titta på datan som returneras. Går det att lägga en ny order till systemet via APIet?
+
+14. Testa hur servern reagerar på felaktiga anrop. 
+* skicka POST requests utan body
+* med felaktig content-type satt
+* felaktigt formaterad json data.
+Vilka felkoder får du? 
 
 ### Query Parameters
 
