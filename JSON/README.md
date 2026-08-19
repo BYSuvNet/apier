@@ -24,6 +24,23 @@ Värdet kan vara en sträng, ett tal, ett booleskt värde, ett objekt, en array 
 }
 ```
 
+## Exempel:
+
+```json
+{
+    "name": "Anna",
+    "age": 30,
+    "address": {
+        "street": "Storgatan 1",
+        "city": "Stockholm",
+        "zip": "12345"
+    },
+    "telephone": ["070-1234567", "08-7654321"],
+    "employed": false,
+    "children": null
+}
+```
+
 # Övningar
 
 Använd denna online-editor när du skriver JSON: [JSON Editor](https://jsoneditoronline.org/#left=local.weguje)
