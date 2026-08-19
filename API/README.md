@@ -79,8 +79,7 @@ Skriv GET requests för följande API:er
     * Skicka med ett JSON-objekt som innehåller namn, email och adress.
     * Vad får du tillbaka? Vad betyder det?
 
-### DaAPI
-DataAnalysAPI på suvnet.se! Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar! 
+10. DataAnalysAPI på suvnet.se! Detta API kan komma att justeras under kursens gång. Kom gärna med förslag på förbättringar! Gå till http://suvnet.se för att se dokumentationen för detta api.
 * Gör en första GET request till https://suvnet.se/api/products och titta på datan som returneras. Vad innehåller den? Hur ser den ut?
 * Vad brukar det finnas för data i ett produktobjekt? Borde vi lägga till något?
 * Vad mer kan finnas i ett sånt här system som skulle kunna bli relevant senare?
