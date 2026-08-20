@@ -183,13 +183,14 @@ function importCSVDataFromAPI() {
   const rows = Utilities.parseCsv(csvText);
 
 //Tolka alla prisvärden som decimaltal istället för text
-    for (let i = 1; i < rows.length; i++) {
+for (let i = 1; i < rows.length; i++) {
   rows[i][3] = parseFloat(rows[i][3]); // pris-kolumnen
 }
 
 // Tolka alla datumvärden som datum istället för text
 for (let i = 1; i < rows.length; i++) {
   rows[i][7] = new Date(rows[i][7]);
+}
 
   //Skriv raderna till google sheets
   const ss = SpreadsheetApp.getActive();
