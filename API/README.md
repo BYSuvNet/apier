@@ -112,6 +112,10 @@ I REST API:er finns olika sätt att påverka vilken data som hämtas. Vanligt ä
 * Query parameters: Dessa läggs till i slutet av URL:en efter ett frågetecken `?` och används för att filtrera eller sortera data. T.ex. `/users?age=30&sort=name` där `age` och `sort` är query-parametrar. API:et måste vara designat för att hantera dessa parametrar, så det är inte alltid det fungerar.
 * Header parameters: Dessa skickas med i HTTP-headern och används ofta för autentisering för att skicka med lösenord eller något som säger att man har rätt att accessa API:et. 
 
+https://api.example.com/users?agemin=20&agemax=30&sort=name
+                        └────┘ └───────────────────────────┘
+                        resurs      queryparametrar
+
 I följande övningar kommer du att använda query parameters för att hämta specifik data.
 
 1. Gå till https://api.nasa.gov/ och klicka in dig på "Asteroids - NeoWs".
