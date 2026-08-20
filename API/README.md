@@ -246,7 +246,7 @@ function importJSON() {
  **setValues(...)** tar en lista med listor och skriver in dem i det angivna området i arket.
 
  **const cell = sheet.getRange('A2')** är ett alternativt sätt att ange en cell eller ett område.
- ** cell.setValue("text")** skriver in "text" i cellen.
+ **cell.setValue("text")** skriver in "text" i cellen.
 
 
 1. Dagens datum
