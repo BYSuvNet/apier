@@ -15,7 +15,7 @@ Länkar:
 * Statuskoder: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status 
 
 ## Lektion 2: JSON och POST-Requests
-* JSON grundläggande struktur
+* JSON grundläggande struktur (Se JSON-mappen)
 * JSON vs XML vs CSV
 * POST requests med JSON som body
 
@@ -24,21 +24,21 @@ Länkar:
 * Parametrar (+ Environments och variables i Hoppscotch) + övningar(2h)
 * Autentisering (API-nycklar, tokens. + rate limiting, paginering, filtrering) (1h)
 * Koppla API till Google Sheets (CSV). App Script, triggers (1h)
+* Koppla API till Google Sheets (JSON)   (1h)
 * Uppgift #2 (1h)
 
 ## Lektion 4:
 * Repetition av API:er och JSON, Q&A. (1h)
-* Koppla API till Google Sheets (JSON)   (1h)
-* Begränsningar med Sheets. Transformation av data i App Scripts. Övningar (3h)
+* Begränsningar med Sheets. Transformation av data i App Scripts. JSON Objekt och Arrayer i Javascript. Övningar (2h)
+* Looker Studio, Community Connectors och API:er (1h)
 
 ## Lektion 5:
 * Repetition JSON Objekt och Arrayer i Javascript (1h)
+* Looker Studio fortsättning. DaAPI Connector (1h)
 * Hur fungerar en Ad-click -> Pageview -> Conversion kedja rent tekniskt? (UTM, *clid, cookies, sessions, user-id) (2h)
-* Looker Studio, Community Connectors och API:er (1h)
     * https://codelabs.developers.google.com/codelabs/community-connectors
 
 ## Lektion 6:
-* Looker Studio fortsättning. DaAPI Connector (1h)
 * Kursutvärdering (1h)
 * Looker Studio fortsättning (1h)
 * LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
@@ -49,10 +49,3 @@ Länkar:
 * Google Sheets API (1h)
 * GraphQL vs REST API (1h)
 * Looker Studio Formula Language (1h)
-
------
-
-### TODO
-
-* Lägg in youtube-videos och länkar till de olika momenten
-* Lägg in länkar till materialet i respektive moment

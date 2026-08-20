@@ -245,6 +245,8 @@ function importJSON() {
 
  **setValues(...)** tar en lista med listor och skriver in dem i det angivna området i arket.
 
+Om du vill skriva in enstaka värden i en cell kan du göra det med **sheet.getRange(row, column).setValue(value)**.
+
  **const cell = sheet.getRange('A2')** är ett alternativt sätt att ange en cell eller ett område.  
  **cell.setValue("text")** skriver in "text" i cellen.
 
