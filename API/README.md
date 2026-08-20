@@ -241,7 +241,7 @@ function importJSON() {
 
 1. Dagens datum
     * I cell A1, skriv texten "Senast uppdaterad:"
-    * I cell A2, se till att dagens datum skrivs in
+    * I cell B1, se till att dagens datum skrivs in
     * Tips: Du behöver ta reda på hur dagens datum kan hämtas med hjälpa av Google Apps Script.
 
 2. Ordertotal
