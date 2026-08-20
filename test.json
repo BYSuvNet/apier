@@ -1,0 +1,11 @@
+{
+    "name": "Anna",
+    "age": 30, 
+    "employed": true,
+    "adress": { 
+        "street": "123 Main St",
+        "city": "Anytown"
+    },
+    "favourite_numbers": [3, 7, 42],
+    "nick_names": ["Annie", "Ann", "A"]
+}

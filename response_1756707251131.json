@@ -1,0 +1,2390 @@
+[
+  {
+    "id": 771,
+    "orderDateUtc": "2025-08-30T19:10:25.00269Z",
+    "customerId": 297,
+    "currency": "SEK",
+    "totalAmount": 999,
+    "items": [
+      {
+        "id": 1387,
+        "orderId": 771,
+        "productId": 42,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 6,
+    "orderDateUtc": "2025-08-30T05:55:11.020285Z",
+    "customerId": 49,
+    "currency": "SEK",
+    "totalAmount": 641.87,
+    "items": [
+      {
+        "id": 10,
+        "orderId": 6,
+        "productId": 94,
+        "quantity": 1,
+        "price": 641.87
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 347,
+    "orderDateUtc": "2025-08-30T05:15:06.620061Z",
+    "customerId": 142,
+    "currency": "SEK",
+    "totalAmount": 152.7,
+    "items": [
+      {
+        "id": 618,
+        "orderId": 347,
+        "productId": 28,
+        "quantity": 1,
+        "price": 152.7
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 467,
+    "orderDateUtc": "2025-08-29T12:58:07.931124Z",
+    "customerId": 186,
+    "currency": "SEK",
+    "totalAmount": 1311.12,
+    "items": [
+      {
+        "id": 860,
+        "orderId": 467,
+        "productId": 38,
+        "quantity": 2,
+        "price": 156.06
+      },
+      {
+        "id": 861,
+        "orderId": 467,
+        "productId": 42,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 676,
+    "orderDateUtc": "2025-08-28T08:12:39.461249Z",
+    "customerId": 260,
+    "currency": "SEK",
+    "totalAmount": 806.81,
+    "items": [
+      {
+        "id": 1225,
+        "orderId": 676,
+        "productId": 99,
+        "quantity": 1,
+        "price": 360.24
+      },
+      {
+        "id": 1224,
+        "orderId": 676,
+        "productId": 89,
+        "quantity": 1,
+        "price": 195.6
+      },
+      {
+        "id": 1223,
+        "orderId": 676,
+        "productId": 4,
+        "quantity": 1,
+        "price": 250.97
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 566,
+    "orderDateUtc": "2025-08-26T05:30:34.050921Z",
+    "customerId": 224,
+    "currency": "SEK",
+    "totalAmount": 746.72,
+    "items": [
+      {
+        "id": 1031,
+        "orderId": 566,
+        "productId": 65,
+        "quantity": 1,
+        "price": 746.72
+      }
+    ],
+    "status": 4
+  },
+  {
+    "id": 559,
+    "orderDateUtc": "2025-08-26T03:43:58.669334Z",
+    "customerId": 220,
+    "currency": "SEK",
+    "totalAmount": 1250.57,
+    "items": [
+      {
+        "id": 1018,
+        "orderId": 559,
+        "productId": 83,
+        "quantity": 1,
+        "price": 629.29
+      },
+      {
+        "id": 1017,
+        "orderId": 559,
+        "productId": 27,
+        "quantity": 1,
+        "price": 621.28
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 511,
+    "orderDateUtc": "2025-08-22T16:29:15.003454Z",
+    "customerId": 202,
+    "currency": "SEK",
+    "totalAmount": 1393.18,
+    "items": [
+      {
+        "id": 934,
+        "orderId": 511,
+        "productId": 44,
+        "quantity": 1,
+        "price": 751.31
+      },
+      {
+        "id": 933,
+        "orderId": 511,
+        "productId": 94,
+        "quantity": 1,
+        "price": 641.87
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 259,
+    "orderDateUtc": "2025-08-22T10:37:08.695426Z",
+    "customerId": 106,
+    "currency": "SEK",
+    "totalAmount": 1194.6,
+    "items": [
+      {
+        "id": 432,
+        "orderId": 259,
+        "productId": 89,
+        "quantity": 1,
+        "price": 195.6
+      },
+      {
+        "id": 431,
+        "orderId": 259,
+        "productId": 7,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 197,
+    "orderDateUtc": "2025-08-21T22:16:42.072274Z",
+    "customerId": 78,
+    "currency": "SEK",
+    "totalAmount": 1174.44,
+    "items": [
+      {
+        "id": 329,
+        "orderId": 197,
+        "productId": 25,
+        "quantity": 1,
+        "price": 237.55
+      },
+      {
+        "id": 328,
+        "orderId": 197,
+        "productId": 36,
+        "quantity": 1,
+        "price": 936.89
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 812,
+    "orderDateUtc": "2025-08-21T03:23:44.549601Z",
+    "customerId": 313,
+    "currency": "SEK",
+    "totalAmount": 1466.62,
+    "items": [
+      {
+        "id": 1456,
+        "orderId": 812,
+        "productId": 7,
+        "quantity": 1,
+        "price": 999
+      },
+      {
+        "id": 1455,
+        "orderId": 812,
+        "productId": 12,
+        "quantity": 1,
+        "price": 467.62
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 436,
+    "orderDateUtc": "2025-08-21T03:17:13.952727Z",
+    "customerId": 178,
+    "currency": "SEK",
+    "totalAmount": 645.54,
+    "items": [
+      {
+        "id": 790,
+        "orderId": 436,
+        "productId": 51,
+        "quantity": 1,
+        "price": 645.54
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 450,
+    "orderDateUtc": "2025-08-19T16:50:19.75829Z",
+    "customerId": 181,
+    "currency": "SEK",
+    "totalAmount": 77.6,
+    "items": [
+      {
+        "id": 826,
+        "orderId": 450,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1290,
+    "orderDateUtc": "2025-08-19T08:54:25.420872Z",
+    "customerId": 486,
+    "currency": "SEK",
+    "totalAmount": 179.01,
+    "items": [
+      {
+        "id": 2305,
+        "orderId": 1290,
+        "productId": 8,
+        "quantity": 1,
+        "price": 179.01
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 588,
+    "orderDateUtc": "2025-08-19T07:54:58.053278Z",
+    "customerId": 231,
+    "currency": "SEK",
+    "totalAmount": 77.6,
+    "items": [
+      {
+        "id": 1070,
+        "orderId": 588,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 600,
+    "orderDateUtc": "2025-08-18T22:40:11.426757Z",
+    "customerId": 236,
+    "currency": "SEK",
+    "totalAmount": 1084.5,
+    "items": [
+      {
+        "id": 1092,
+        "orderId": 600,
+        "productId": 55,
+        "quantity": 1,
+        "price": 368.46
+      },
+      {
+        "id": 1091,
+        "orderId": 600,
+        "productId": 11,
+        "quantity": 3,
+        "price": 238.68
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1070,
+    "orderDateUtc": "2025-08-17T16:44:48.912706Z",
+    "customerId": 405,
+    "currency": "SEK",
+    "totalAmount": 1151.58,
+    "items": [
+      {
+        "id": 1927,
+        "orderId": 1070,
+        "productId": 12,
+        "quantity": 1,
+        "price": 467.62
+      },
+      {
+        "id": 1926,
+        "orderId": 1070,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      },
+      {
+        "id": 1925,
+        "orderId": 1070,
+        "productId": 19,
+        "quantity": 1,
+        "price": 206.6
+      },
+      {
+        "id": 1924,
+        "orderId": 1070,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 332,
+    "orderDateUtc": "2025-08-16T22:01:15.541888Z",
+    "customerId": 138,
+    "currency": "SEK",
+    "totalAmount": 1497.67,
+    "items": [
+      {
+        "id": 585,
+        "orderId": 332,
+        "productId": 94,
+        "quantity": 1,
+        "price": 641.87
+      },
+      {
+        "id": 584,
+        "orderId": 332,
+        "productId": 78,
+        "quantity": 1,
+        "price": 150.61
+      },
+      {
+        "id": 583,
+        "orderId": 332,
+        "productId": 27,
+        "quantity": 1,
+        "price": 621.28
+      },
+      {
+        "id": 582,
+        "orderId": 332,
+        "productId": 95,
+        "quantity": 1,
+        "price": 83.91
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1113,
+    "orderDateUtc": "2025-08-15T18:08:06.511365Z",
+    "customerId": 425,
+    "currency": "SEK",
+    "totalAmount": 149.08,
+    "items": [
+      {
+        "id": 1995,
+        "orderId": 1113,
+        "productId": 60,
+        "quantity": 1,
+        "price": 71.48
+      },
+      {
+        "id": 1994,
+        "orderId": 1113,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 832,
+    "orderDateUtc": "2025-08-14T11:22:31.271104Z",
+    "customerId": 320,
+    "currency": "SEK",
+    "totalAmount": 294.56,
+    "items": [
+      {
+        "id": 1483,
+        "orderId": 832,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 722,
+    "orderDateUtc": "2025-08-13T23:09:39.590344Z",
+    "customerId": 279,
+    "currency": "SEK",
+    "totalAmount": 467.62,
+    "items": [
+      {
+        "id": 1301,
+        "orderId": 722,
+        "productId": 12,
+        "quantity": 1,
+        "price": 467.62
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 75,
+    "orderDateUtc": "2025-08-09T00:37:23.941379Z",
+    "customerId": 21,
+    "currency": "SEK",
+    "totalAmount": 77.6,
+    "items": [
+      {
+        "id": 116,
+        "orderId": 75,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 410,
+    "orderDateUtc": "2025-08-08T22:31:01.881146Z",
+    "customerId": 168,
+    "currency": "SEK",
+    "totalAmount": 719.57,
+    "items": [
+      {
+        "id": 744,
+        "orderId": 410,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      },
+      {
+        "id": 745,
+        "orderId": 410,
+        "productId": 63,
+        "quantity": 1,
+        "price": 79.45
+      },
+      {
+        "id": 746,
+        "orderId": 410,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      },
+      {
+        "id": 747,
+        "orderId": 410,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      },
+      {
+        "id": 748,
+        "orderId": 410,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 843,
+    "orderDateUtc": "2025-08-08T15:30:38.222968Z",
+    "customerId": 325,
+    "currency": "SEK",
+    "totalAmount": 1041.04,
+    "items": [
+      {
+        "id": 1513,
+        "orderId": 843,
+        "productId": 37,
+        "quantity": 1,
+        "price": 305.77
+      },
+      {
+        "id": 1512,
+        "orderId": 843,
+        "productId": 75,
+        "quantity": 1,
+        "price": 338.89
+      },
+      {
+        "id": 1511,
+        "orderId": 843,
+        "productId": 56,
+        "quantity": 1,
+        "price": 396.38
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 307,
+    "orderDateUtc": "2025-08-08T10:34:51.685449Z",
+    "customerId": 127,
+    "currency": "SEK",
+    "totalAmount": 477.36,
+    "items": [
+      {
+        "id": 529,
+        "orderId": 307,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      },
+      {
+        "id": 528,
+        "orderId": 307,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1318,
+    "orderDateUtc": "2025-08-06T06:21:59.959262Z",
+    "customerId": 496,
+    "currency": "SEK",
+    "totalAmount": 290.39,
+    "items": [
+      {
+        "id": 2357,
+        "orderId": 1318,
+        "productId": 63,
+        "quantity": 1,
+        "price": 79.45
+      },
+      {
+        "id": 2356,
+        "orderId": 1318,
+        "productId": 13,
+        "quantity": 1,
+        "price": 210.94
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 1119,
+    "orderDateUtc": "2025-08-02T22:49:17.739202Z",
+    "customerId": 427,
+    "currency": "SEK",
+    "totalAmount": 1220.3,
+    "items": [
+      {
+        "id": 2005,
+        "orderId": 1119,
+        "productId": 39,
+        "quantity": 1,
+        "price": 100.56
+      },
+      {
+        "id": 2004,
+        "orderId": 1119,
+        "productId": 31,
+        "quantity": 1,
+        "price": 316.75
+      },
+      {
+        "id": 2003,
+        "orderId": 1119,
+        "productId": 53,
+        "quantity": 1,
+        "price": 802.99
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1003,
+    "orderDateUtc": "2025-08-02T00:24:35.887165Z",
+    "customerId": 376,
+    "currency": "SEK",
+    "totalAmount": 961.14,
+    "items": [
+      {
+        "id": 1789,
+        "orderId": 1003,
+        "productId": 66,
+        "quantity": 1,
+        "price": 710.17
+      },
+      {
+        "id": 1788,
+        "orderId": 1003,
+        "productId": 4,
+        "quantity": 1,
+        "price": 250.97
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 551,
+    "orderDateUtc": "2025-08-01T22:50:12.342161Z",
+    "customerId": 217,
+    "currency": "SEK",
+    "totalAmount": 175.45,
+    "items": [
+      {
+        "id": 1005,
+        "orderId": 551,
+        "productId": 9,
+        "quantity": 1,
+        "price": 175.45
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 871,
+    "orderDateUtc": "2025-08-01T10:32:06.723161Z",
+    "customerId": 332,
+    "currency": "SEK",
+    "totalAmount": 77.6,
+    "items": [
+      {
+        "id": 1560,
+        "orderId": 871,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 497,
+    "orderDateUtc": "2025-07-30T05:51:02.677573Z",
+    "customerId": 196,
+    "currency": "SEK",
+    "totalAmount": 398.78,
+    "items": [
+      {
+        "id": 915,
+        "orderId": 497,
+        "productId": 2,
+        "quantity": 1,
+        "price": 398.78
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1223,
+    "orderDateUtc": "2025-07-29T21:38:11.021888Z",
+    "customerId": 459,
+    "currency": "SEK",
+    "totalAmount": 245.21,
+    "items": [
+      {
+        "id": 2182,
+        "orderId": 1223,
+        "productId": 20,
+        "quantity": 1,
+        "price": 245.21
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1004,
+    "orderDateUtc": "2025-07-29T20:19:56.818757Z",
+    "customerId": 377,
+    "currency": "SEK",
+    "totalAmount": 369.78,
+    "items": [
+      {
+        "id": 1790,
+        "orderId": 1004,
+        "productId": 69,
+        "quantity": 1,
+        "price": 369.78
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 36,
+    "orderDateUtc": "2025-07-25T14:57:08.562759Z",
+    "customerId": 38,
+    "currency": "SEK",
+    "totalAmount": 930.11,
+    "items": [
+      {
+        "id": 59,
+        "orderId": 36,
+        "productId": 45,
+        "quantity": 1,
+        "price": 930.11
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1048,
+    "orderDateUtc": "2025-07-25T14:49:45.898866Z",
+    "customerId": 394,
+    "currency": "SEK",
+    "totalAmount": 1242.56,
+    "items": [
+      {
+        "id": 1883,
+        "orderId": 1048,
+        "productId": 27,
+        "quantity": 1,
+        "price": 621.28
+      },
+      {
+        "id": 1882,
+        "orderId": 1048,
+        "productId": 27,
+        "quantity": 1,
+        "price": 621.28
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 22,
+    "orderDateUtc": "2025-07-25T11:28:05.896866Z",
+    "customerId": 42,
+    "currency": "SEK",
+    "totalAmount": 234.52,
+    "items": [
+      {
+        "id": 36,
+        "orderId": 22,
+        "productId": 78,
+        "quantity": 1,
+        "price": 150.61
+      },
+      {
+        "id": 35,
+        "orderId": 22,
+        "productId": 95,
+        "quantity": 1,
+        "price": 83.91
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 39,
+    "orderDateUtc": "2025-07-25T06:01:52.177894Z",
+    "customerId": 37,
+    "currency": "SEK",
+    "totalAmount": 933.6,
+    "items": [
+      {
+        "id": 64,
+        "orderId": 39,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      },
+      {
+        "id": 63,
+        "orderId": 39,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 133,
+    "orderDateUtc": "2025-07-24T01:05:05.251759Z",
+    "customerId": 56,
+    "currency": "SEK",
+    "totalAmount": 530.78,
+    "items": [
+      {
+        "id": 214,
+        "orderId": 133,
+        "productId": 97,
+        "quantity": 1,
+        "price": 299.47
+      },
+      {
+        "id": 213,
+        "orderId": 133,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1106,
+    "orderDateUtc": "2025-07-22T22:39:39.860065Z",
+    "customerId": 423,
+    "currency": "SEK",
+    "totalAmount": 372.8,
+    "items": [
+      {
+        "id": 1985,
+        "orderId": 1106,
+        "productId": 70,
+        "quantity": 1,
+        "price": 372.8
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 712,
+    "orderDateUtc": "2025-07-21T00:41:06.239398Z",
+    "customerId": 276,
+    "currency": "SEK",
+    "totalAmount": 270.25,
+    "items": [
+      {
+        "id": 1287,
+        "orderId": 712,
+        "productId": 91,
+        "quantity": 1,
+        "price": 270.25
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 736,
+    "orderDateUtc": "2025-07-19T06:45:20.464699Z",
+    "customerId": 285,
+    "currency": "SEK",
+    "totalAmount": 417.69,
+    "items": [
+      {
+        "id": 1329,
+        "orderId": 736,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      },
+      {
+        "id": 1328,
+        "orderId": 736,
+        "productId": 8,
+        "quantity": 1,
+        "price": 179.01
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 129,
+    "orderDateUtc": "2025-07-18T12:21:40.998003Z",
+    "customerId": 54,
+    "currency": "SEK",
+    "totalAmount": 99.9,
+    "items": [
+      {
+        "id": 200,
+        "orderId": 129,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1117,
+    "orderDateUtc": "2025-07-17T16:40:54.51114Z",
+    "customerId": 426,
+    "currency": "SEK",
+    "totalAmount": 930.11,
+    "items": [
+      {
+        "id": 2000,
+        "orderId": 1117,
+        "productId": 45,
+        "quantity": 1,
+        "price": 930.11
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 962,
+    "orderDateUtc": "2025-07-17T02:15:40.939176Z",
+    "customerId": 364,
+    "currency": "SEK",
+    "totalAmount": 1235.12,
+    "items": [
+      {
+        "id": 1712,
+        "orderId": 962,
+        "productId": 23,
+        "quantity": 1,
+        "price": 791.78
+      },
+      {
+        "id": 1711,
+        "orderId": 962,
+        "productId": 61,
+        "quantity": 1,
+        "price": 443.34
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 267,
+    "orderDateUtc": "2025-07-14T22:25:04.887365Z",
+    "customerId": 108,
+    "currency": "SEK",
+    "totalAmount": 1089.59,
+    "items": [
+      {
+        "id": 445,
+        "orderId": 267,
+        "productId": 28,
+        "quantity": 1,
+        "price": 152.7
+      },
+      {
+        "id": 444,
+        "orderId": 267,
+        "productId": 36,
+        "quantity": 1,
+        "price": 936.89
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 209,
+    "orderDateUtc": "2025-07-10T13:28:54.51373Z",
+    "customerId": 85,
+    "currency": "SEK",
+    "totalAmount": 547.82,
+    "items": [
+      {
+        "id": 346,
+        "orderId": 209,
+        "productId": 21,
+        "quantity": 1,
+        "price": 547.82
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 920,
+    "orderDateUtc": "2025-07-09T19:10:16.150378Z",
+    "customerId": 349,
+    "currency": "SEK",
+    "totalAmount": 833.7,
+    "items": [
+      {
+        "id": 1637,
+        "orderId": 920,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1049,
+    "orderDateUtc": "2025-07-09T07:39:40.481915Z",
+    "customerId": 395,
+    "currency": "SEK",
+    "totalAmount": 99.9,
+    "items": [
+      {
+        "id": 1884,
+        "orderId": 1049,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 10,
+    "orderDateUtc": "2025-07-07T16:34:14.998259Z",
+    "customerId": 46,
+    "currency": "SEK",
+    "totalAmount": 366.49,
+    "items": [
+      {
+        "id": 15,
+        "orderId": 10,
+        "productId": 29,
+        "quantity": 1,
+        "price": 366.49
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1022,
+    "orderDateUtc": "2025-07-05T04:52:39.154083Z",
+    "customerId": 384,
+    "currency": "SEK",
+    "totalAmount": 1065.95,
+    "items": [
+      {
+        "id": 1835,
+        "orderId": 1022,
+        "productId": 44,
+        "quantity": 1,
+        "price": 751.31
+      },
+      {
+        "id": 1834,
+        "orderId": 1022,
+        "productId": 100,
+        "quantity": 1,
+        "price": 314.64
+      }
+    ],
+    "status": 4
+  },
+  {
+    "id": 228,
+    "orderDateUtc": "2025-07-04T19:52:28.038084Z",
+    "customerId": 88,
+    "currency": "SEK",
+    "totalAmount": 1074.9,
+    "items": [
+      {
+        "id": 380,
+        "orderId": 228,
+        "productId": 42,
+        "quantity": 1,
+        "price": 999
+      },
+      {
+        "id": 379,
+        "orderId": 228,
+        "productId": 59,
+        "quantity": 1,
+        "price": 75.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 124,
+    "orderDateUtc": "2025-07-03T10:37:47.820479Z",
+    "customerId": 52,
+    "currency": "SEK",
+    "totalAmount": 710.17,
+    "items": [
+      {
+        "id": 195,
+        "orderId": 124,
+        "productId": 66,
+        "quantity": 1,
+        "price": 710.17
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 830,
+    "orderDateUtc": "2025-07-03T00:49:03.194994Z",
+    "customerId": 319,
+    "currency": "SEK",
+    "totalAmount": 179.29,
+    "items": [
+      {
+        "id": 1481,
+        "orderId": 830,
+        "productId": 15,
+        "quantity": 1,
+        "price": 179.29
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 86,
+    "orderDateUtc": "2025-06-30T16:15:32.867228Z",
+    "customerId": 19,
+    "currency": "SEK",
+    "totalAmount": 270.25,
+    "items": [
+      {
+        "id": 137,
+        "orderId": 86,
+        "productId": 91,
+        "quantity": 1,
+        "price": 270.25
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 604,
+    "orderDateUtc": "2025-06-29T02:11:26.199488Z",
+    "customerId": 237,
+    "currency": "SEK",
+    "totalAmount": 833.7,
+    "items": [
+      {
+        "id": 1098,
+        "orderId": 604,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1195,
+    "orderDateUtc": "2025-06-28T13:18:25.07529Z",
+    "customerId": 451,
+    "currency": "SEK",
+    "totalAmount": 930.11,
+    "items": [
+      {
+        "id": 2137,
+        "orderId": 1195,
+        "productId": 45,
+        "quantity": 1,
+        "price": 930.11
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 69,
+    "orderDateUtc": "2025-06-27T14:52:18.070848Z",
+    "customerId": 24,
+    "currency": "SEK",
+    "totalAmount": 75.9,
+    "items": [
+      {
+        "id": 105,
+        "orderId": 69,
+        "productId": 59,
+        "quantity": 1,
+        "price": 75.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1002,
+    "orderDateUtc": "2025-06-27T13:32:46.865502Z",
+    "customerId": 376,
+    "currency": "SEK",
+    "totalAmount": 930.11,
+    "items": [
+      {
+        "id": 1787,
+        "orderId": 1002,
+        "productId": 45,
+        "quantity": 1,
+        "price": 930.11
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 609,
+    "orderDateUtc": "2025-06-27T05:30:12.947112Z",
+    "customerId": 237,
+    "currency": "SEK",
+    "totalAmount": 841.27,
+    "items": [
+      {
+        "id": 1113,
+        "orderId": 609,
+        "productId": 87,
+        "quantity": 1,
+        "price": 711.68
+      },
+      {
+        "id": 1112,
+        "orderId": 609,
+        "productId": 76,
+        "quantity": 1,
+        "price": 129.59
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 523,
+    "orderDateUtc": "2025-06-26T22:37:11.24988Z",
+    "customerId": 208,
+    "currency": "SEK",
+    "totalAmount": 556.79,
+    "items": [
+      {
+        "id": 960,
+        "orderId": 523,
+        "productId": 84,
+        "quantity": 1,
+        "price": 94.17
+      },
+      {
+        "id": 959,
+        "orderId": 523,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      },
+      {
+        "id": 958,
+        "orderId": 523,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 459,
+    "orderDateUtc": "2025-06-25T17:25:15.808662Z",
+    "customerId": 183,
+    "currency": "SEK",
+    "totalAmount": 331.21,
+    "items": [
+      {
+        "id": 842,
+        "orderId": 459,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      },
+      {
+        "id": 843,
+        "orderId": 459,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1293,
+    "orderDateUtc": "2025-06-25T11:36:31.174899Z",
+    "customerId": 487,
+    "currency": "SEK",
+    "totalAmount": 2066.14,
+    "items": [
+      {
+        "id": 2310,
+        "orderId": 1293,
+        "productId": 27,
+        "quantity": 1,
+        "price": 621.28
+      },
+      {
+        "id": 2309,
+        "orderId": 1293,
+        "productId": 94,
+        "quantity": 1,
+        "price": 641.87
+      },
+      {
+        "id": 2308,
+        "orderId": 1293,
+        "productId": 53,
+        "quantity": 1,
+        "price": 802.99
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1151,
+    "orderDateUtc": "2025-06-25T04:20:08.68108Z",
+    "customerId": 437,
+    "currency": "SEK",
+    "totalAmount": 999,
+    "items": [
+      {
+        "id": 2058,
+        "orderId": 1151,
+        "productId": 6,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 882,
+    "orderDateUtc": "2025-06-24T22:55:58.670157Z",
+    "customerId": 338,
+    "currency": "SEK",
+    "totalAmount": 150.61,
+    "items": [
+      {
+        "id": 1574,
+        "orderId": 882,
+        "productId": 78,
+        "quantity": 1,
+        "price": 150.61
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 117,
+    "orderDateUtc": "2025-06-24T03:44:17.819077Z",
+    "customerId": 1,
+    "currency": "SEK",
+    "totalAmount": 71.48,
+    "items": [
+      {
+        "id": 184,
+        "orderId": 117,
+        "productId": 60,
+        "quantity": 1,
+        "price": 71.48
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 168,
+    "orderDateUtc": "2025-06-23T05:51:26.997653Z",
+    "customerId": 66,
+    "currency": "SEK",
+    "totalAmount": 565.83,
+    "items": [
+      {
+        "id": 271,
+        "orderId": 168,
+        "productId": 67,
+        "quantity": 1,
+        "price": 193.03
+      },
+      {
+        "id": 270,
+        "orderId": 168,
+        "productId": 70,
+        "quantity": 1,
+        "price": 372.8
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 970,
+    "orderDateUtc": "2025-06-23T03:35:45.324207Z",
+    "customerId": 366,
+    "currency": "SEK",
+    "totalAmount": 152.7,
+    "items": [
+      {
+        "id": 1724,
+        "orderId": 970,
+        "productId": 28,
+        "quantity": 1,
+        "price": 152.7
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 14,
+    "orderDateUtc": "2025-06-23T01:08:04.029759Z",
+    "customerId": 45,
+    "currency": "SEK",
+    "totalAmount": 398.78,
+    "items": [
+      {
+        "id": 22,
+        "orderId": 14,
+        "productId": 2,
+        "quantity": 1,
+        "price": 398.78
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 292,
+    "orderDateUtc": "2025-06-22T23:27:45.418687Z",
+    "customerId": 120,
+    "currency": "SEK",
+    "totalAmount": 1721.89,
+    "items": [
+      {
+        "id": 498,
+        "orderId": 292,
+        "productId": 45,
+        "quantity": 1,
+        "price": 930.11
+      },
+      {
+        "id": 497,
+        "orderId": 292,
+        "productId": 23,
+        "quantity": 1,
+        "price": 791.78
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 889,
+    "orderDateUtc": "2025-06-22T20:53:07.058655Z",
+    "customerId": 340,
+    "currency": "SEK",
+    "totalAmount": 1030.44,
+    "items": [
+      {
+        "id": 1587,
+        "orderId": 889,
+        "productId": 75,
+        "quantity": 1,
+        "price": 338.89
+      },
+      {
+        "id": 1586,
+        "orderId": 889,
+        "productId": 20,
+        "quantity": 1,
+        "price": 245.21
+      },
+      {
+        "id": 1585,
+        "orderId": 889,
+        "productId": 76,
+        "quantity": 1,
+        "price": 129.59
+      },
+      {
+        "id": 1584,
+        "orderId": 889,
+        "productId": 31,
+        "quantity": 1,
+        "price": 316.75
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 707,
+    "orderDateUtc": "2025-06-22T04:32:46.912363Z",
+    "customerId": 274,
+    "currency": "SEK",
+    "totalAmount": 1128.26,
+    "items": [
+      {
+        "id": 1281,
+        "orderId": 707,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      },
+      {
+        "id": 1280,
+        "orderId": 707,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 590,
+    "orderDateUtc": "2025-06-21T12:37:04.672361Z",
+    "customerId": 231,
+    "currency": "SEK",
+    "totalAmount": 250.97,
+    "items": [
+      {
+        "id": 1075,
+        "orderId": 590,
+        "productId": 4,
+        "quantity": 1,
+        "price": 250.97
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1017,
+    "orderDateUtc": "2025-06-21T12:03:26.43332Z",
+    "customerId": 382,
+    "currency": "SEK",
+    "totalAmount": 496.21,
+    "items": [
+      {
+        "id": 1820,
+        "orderId": 1017,
+        "productId": 1,
+        "quantity": 1,
+        "price": 496.21
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 818,
+    "orderDateUtc": "2025-06-20T20:59:57.115716Z",
+    "customerId": 315,
+    "currency": "SEK",
+    "totalAmount": 110.03,
+    "items": [
+      {
+        "id": 1465,
+        "orderId": 818,
+        "productId": 52,
+        "quantity": 1,
+        "price": 110.03
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 303,
+    "orderDateUtc": "2025-06-20T11:34:14.192147Z",
+    "customerId": 124,
+    "currency": "SEK",
+    "totalAmount": 314.64,
+    "items": [
+      {
+        "id": 516,
+        "orderId": 303,
+        "productId": 100,
+        "quantity": 1,
+        "price": 314.64
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 673,
+    "orderDateUtc": "2025-06-20T08:52:18.812927Z",
+    "customerId": 258,
+    "currency": "SEK",
+    "totalAmount": 372.8,
+    "items": [
+      {
+        "id": 1219,
+        "orderId": 673,
+        "productId": 70,
+        "quantity": 1,
+        "price": 372.8
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 715,
+    "orderDateUtc": "2025-06-19T16:45:28.728266Z",
+    "customerId": 278,
+    "currency": "SEK",
+    "totalAmount": 62.82,
+    "items": [
+      {
+        "id": 1290,
+        "orderId": 715,
+        "productId": 17,
+        "quantity": 1,
+        "price": 62.82
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 651,
+    "orderDateUtc": "2025-06-19T07:14:31.586003Z",
+    "customerId": 252,
+    "currency": "SEK",
+    "totalAmount": 645.54,
+    "items": [
+      {
+        "id": 1183,
+        "orderId": 651,
+        "productId": 51,
+        "quantity": 1,
+        "price": 645.54
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 873,
+    "orderDateUtc": "2025-06-19T04:54:31.535316Z",
+    "customerId": 333,
+    "currency": "SEK",
+    "totalAmount": 1466.62,
+    "items": [
+      {
+        "id": 1563,
+        "orderId": 873,
+        "productId": 7,
+        "quantity": 1,
+        "price": 999
+      },
+      {
+        "id": 1562,
+        "orderId": 873,
+        "productId": 12,
+        "quantity": 1,
+        "price": 467.62
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 377,
+    "orderDateUtc": "2025-06-18T06:58:45.643445Z",
+    "customerId": 152,
+    "currency": "SEK",
+    "totalAmount": 1333.95,
+    "items": [
+      {
+        "id": 674,
+        "orderId": 377,
+        "productId": 49,
+        "quantity": 1,
+        "price": 247.59
+      },
+      {
+        "id": 675,
+        "orderId": 377,
+        "productId": 62,
+        "quantity": 3,
+        "price": 362.12
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1146,
+    "orderDateUtc": "2025-06-18T03:47:26.0049Z",
+    "customerId": 435,
+    "currency": "SEK",
+    "totalAmount": 867.74,
+    "items": [
+      {
+        "id": 2052,
+        "orderId": 1146,
+        "productId": 87,
+        "quantity": 1,
+        "price": 711.68
+      },
+      {
+        "id": 2051,
+        "orderId": 1146,
+        "productId": 38,
+        "quantity": 1,
+        "price": 156.06
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 199,
+    "orderDateUtc": "2025-06-17T08:52:15.259774Z",
+    "customerId": 81,
+    "currency": "SEK",
+    "totalAmount": 196.08,
+    "items": [
+      {
+        "id": 331,
+        "orderId": 199,
+        "productId": 46,
+        "quantity": 1,
+        "price": 196.08
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 981,
+    "orderDateUtc": "2025-06-16T17:42:24.051273Z",
+    "customerId": 370,
+    "currency": "SEK",
+    "totalAmount": 663.66,
+    "items": [
+      {
+        "id": 1744,
+        "orderId": 981,
+        "productId": 78,
+        "quantity": 1,
+        "price": 150.61
+      },
+      {
+        "id": 1743,
+        "orderId": 981,
+        "productId": 50,
+        "quantity": 1,
+        "price": 513.05
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1052,
+    "orderDateUtc": "2025-06-16T16:41:05.829935Z",
+    "customerId": 396,
+    "currency": "SEK",
+    "totalAmount": 1913.75,
+    "items": [
+      {
+        "id": 1898,
+        "orderId": 1052,
+        "productId": 11,
+        "quantity": 1,
+        "price": 238.68
+      },
+      {
+        "id": 1897,
+        "orderId": 1052,
+        "productId": 20,
+        "quantity": 1,
+        "price": 245.21
+      },
+      {
+        "id": 1896,
+        "orderId": 1052,
+        "productId": 74,
+        "quantity": 1,
+        "price": 301.6
+      },
+      {
+        "id": 1895,
+        "orderId": 1052,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      },
+      {
+        "id": 1894,
+        "orderId": 1052,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 1026,
+    "orderDateUtc": "2025-06-16T15:55:11.580232Z",
+    "customerId": 385,
+    "currency": "SEK",
+    "totalAmount": 1644.54,
+    "items": [
+      {
+        "id": 1843,
+        "orderId": 1026,
+        "productId": 51,
+        "quantity": 1,
+        "price": 645.54
+      },
+      {
+        "id": 1842,
+        "orderId": 1026,
+        "productId": 7,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 956,
+    "orderDateUtc": "2025-06-16T08:10:47.047841Z",
+    "customerId": 363,
+    "currency": "SEK",
+    "totalAmount": 1041.28,
+    "items": [
+      {
+        "id": 1703,
+        "orderId": 956,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      },
+      {
+        "id": 1702,
+        "orderId": 956,
+        "productId": 65,
+        "quantity": 1,
+        "price": 746.72
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1036,
+    "orderDateUtc": "2025-06-15T01:58:12.234687Z",
+    "customerId": 387,
+    "currency": "SEK",
+    "totalAmount": 873.18,
+    "items": [
+      {
+        "id": 1862,
+        "orderId": 1036,
+        "productId": 94,
+        "quantity": 1,
+        "price": 641.87
+      },
+      {
+        "id": 1861,
+        "orderId": 1036,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1143,
+    "orderDateUtc": "2025-06-14T16:59:36.385257Z",
+    "customerId": 435,
+    "currency": "SEK",
+    "totalAmount": 925.93,
+    "items": [
+      {
+        "id": 2048,
+        "orderId": 1143,
+        "productId": 4,
+        "quantity": 1,
+        "price": 250.97
+      },
+      {
+        "id": 2047,
+        "orderId": 1143,
+        "productId": 70,
+        "quantity": 1,
+        "price": 372.8
+      },
+      {
+        "id": 2046,
+        "orderId": 1143,
+        "productId": 96,
+        "quantity": 1,
+        "price": 302.16
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 653,
+    "orderDateUtc": "2025-06-13T18:45:20.495157Z",
+    "customerId": 252,
+    "currency": "SEK",
+    "totalAmount": 936.89,
+    "items": [
+      {
+        "id": 1188,
+        "orderId": 653,
+        "productId": 36,
+        "quantity": 1,
+        "price": 936.89
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 868,
+    "orderDateUtc": "2025-06-12T19:51:03.242455Z",
+    "customerId": 331,
+    "currency": "SEK",
+    "totalAmount": 173.83,
+    "items": [
+      {
+        "id": 1552,
+        "orderId": 868,
+        "productId": 22,
+        "quantity": 1,
+        "price": 173.83
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1247,
+    "orderDateUtc": "2025-06-11T06:41:23.789906Z",
+    "customerId": 470,
+    "currency": "SEK",
+    "totalAmount": 1078.17,
+    "items": [
+      {
+        "id": 2220,
+        "orderId": 1247,
+        "productId": 29,
+        "quantity": 1,
+        "price": 366.49
+      },
+      {
+        "id": 2219,
+        "orderId": 1247,
+        "productId": 87,
+        "quantity": 1,
+        "price": 711.68
+      }
+    ],
+    "status": 4
+  },
+  {
+    "id": 1287,
+    "orderDateUtc": "2025-06-10T13:00:38.902964Z",
+    "customerId": 485,
+    "currency": "SEK",
+    "totalAmount": 270.25,
+    "items": [
+      {
+        "id": 2301,
+        "orderId": 1287,
+        "productId": 91,
+        "quantity": 1,
+        "price": 270.25
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 73,
+    "orderDateUtc": "2025-06-09T20:27:57.206264Z",
+    "customerId": 21,
+    "currency": "SEK",
+    "totalAmount": 540.37,
+    "items": [
+      {
+        "id": 112,
+        "orderId": 73,
+        "productId": 86,
+        "quantity": 1,
+        "price": 245.81
+      },
+      {
+        "id": 111,
+        "orderId": 73,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 123,
+    "orderDateUtc": "2025-06-09T14:52:51.687489Z",
+    "customerId": 52,
+    "currency": "SEK",
+    "totalAmount": 936.89,
+    "items": [
+      {
+        "id": 194,
+        "orderId": 123,
+        "productId": 36,
+        "quantity": 1,
+        "price": 936.89
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 40,
+    "orderDateUtc": "2025-06-08T14:43:36.268819Z",
+    "customerId": 37,
+    "currency": "SEK",
+    "totalAmount": 177.5,
+    "items": [
+      {
+        "id": 66,
+        "orderId": 40,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      },
+      {
+        "id": 65,
+        "orderId": 40,
+        "productId": 10,
+        "quantity": 1,
+        "price": 99.9
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 190,
+    "orderDateUtc": "2025-06-08T04:05:01.701943Z",
+    "customerId": 75,
+    "currency": "SEK",
+    "totalAmount": 629.29,
+    "items": [
+      {
+        "id": 313,
+        "orderId": 190,
+        "productId": 83,
+        "quantity": 1,
+        "price": 629.29
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 799,
+    "orderDateUtc": "2025-06-08T00:19:38.415546Z",
+    "customerId": 308,
+    "currency": "SEK",
+    "totalAmount": 723.87,
+    "items": [
+      {
+        "id": 1431,
+        "orderId": 799,
+        "productId": 17,
+        "quantity": 1,
+        "price": 62.82
+      },
+      {
+        "id": 1430,
+        "orderId": 799,
+        "productId": 73,
+        "quantity": 1,
+        "price": 294.56
+      },
+      {
+        "id": 1429,
+        "orderId": 799,
+        "productId": 29,
+        "quantity": 1,
+        "price": 366.49
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1091,
+    "orderDateUtc": "2025-06-07T09:32:34.209899Z",
+    "customerId": 414,
+    "currency": "SEK",
+    "totalAmount": 746.72,
+    "items": [
+      {
+        "id": 1955,
+        "orderId": 1091,
+        "productId": 65,
+        "quantity": 1,
+        "price": 746.72
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 928,
+    "orderDateUtc": "2025-06-06T20:06:50.404298Z",
+    "customerId": 352,
+    "currency": "SEK",
+    "totalAmount": 1296.53,
+    "items": [
+      {
+        "id": 1650,
+        "orderId": 928,
+        "productId": 72,
+        "quantity": 1,
+        "price": 77.6
+      },
+      {
+        "id": 1649,
+        "orderId": 928,
+        "productId": 12,
+        "quantity": 1,
+        "price": 467.62
+      },
+      {
+        "id": 1648,
+        "orderId": 928,
+        "productId": 44,
+        "quantity": 1,
+        "price": 751.31
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 913,
+    "orderDateUtc": "2025-06-06T12:57:39.592452Z",
+    "customerId": 348,
+    "currency": "SEK",
+    "totalAmount": 833.7,
+    "items": [
+      {
+        "id": 1629,
+        "orderId": 913,
+        "productId": 58,
+        "quantity": 1,
+        "price": 833.7
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 866,
+    "orderDateUtc": "2025-06-06T02:46:47.51785Z",
+    "customerId": 331,
+    "currency": "SEK",
+    "totalAmount": 1255.67,
+    "items": [
+      {
+        "id": 1550,
+        "orderId": 866,
+        "productId": 48,
+        "quantity": 1,
+        "price": 318.78
+      },
+      {
+        "id": 1549,
+        "orderId": 866,
+        "productId": 36,
+        "quantity": 1,
+        "price": 936.89
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 785,
+    "orderDateUtc": "2025-06-05T23:52:48.830426Z",
+    "customerId": 302,
+    "currency": "SEK",
+    "totalAmount": 1109.55,
+    "items": [
+      {
+        "id": 1413,
+        "orderId": 785,
+        "productId": 87,
+        "quantity": 1,
+        "price": 711.68
+      },
+      {
+        "id": 1412,
+        "orderId": 785,
+        "productId": 93,
+        "quantity": 1,
+        "price": 397.87
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 184,
+    "orderDateUtc": "2025-06-05T10:28:35.250589Z",
+    "customerId": 71,
+    "currency": "SEK",
+    "totalAmount": 615.6,
+    "items": [
+      {
+        "id": 303,
+        "orderId": 184,
+        "productId": 33,
+        "quantity": 1,
+        "price": 242.8
+      },
+      {
+        "id": 302,
+        "orderId": 184,
+        "productId": 70,
+        "quantity": 1,
+        "price": 372.8
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 457,
+    "orderDateUtc": "2025-06-03T00:37:20.780902Z",
+    "customerId": 183,
+    "currency": "SEK",
+    "totalAmount": 534.1,
+    "items": [
+      {
+        "id": 838,
+        "orderId": 457,
+        "productId": 60,
+        "quantity": 1,
+        "price": 71.48
+      },
+      {
+        "id": 839,
+        "orderId": 457,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      },
+      {
+        "id": 840,
+        "orderId": 457,
+        "productId": 88,
+        "quantity": 1,
+        "price": 231.31
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 91,
+    "orderDateUtc": "2025-06-02T21:52:00.11301Z",
+    "customerId": 16,
+    "currency": "SEK",
+    "totalAmount": 206.6,
+    "items": [
+      {
+        "id": 144,
+        "orderId": 91,
+        "productId": 19,
+        "quantity": 1,
+        "price": 206.6
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 108,
+    "orderDateUtc": "2025-06-02T21:42:23.147397Z",
+    "customerId": 7,
+    "currency": "SEK",
+    "totalAmount": 366.49,
+    "items": [
+      {
+        "id": 173,
+        "orderId": 108,
+        "productId": 29,
+        "quantity": 1,
+        "price": 366.49
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 1031,
+    "orderDateUtc": "2025-06-02T11:24:39.517405Z",
+    "customerId": 386,
+    "currency": "SEK",
+    "totalAmount": 472.81,
+    "items": [
+      {
+        "id": 1854,
+        "orderId": 1031,
+        "productId": 31,
+        "quantity": 1,
+        "price": 316.75
+      },
+      {
+        "id": 1853,
+        "orderId": 1031,
+        "productId": 38,
+        "quantity": 1,
+        "price": 156.06
+      }
+    ],
+    "status": 2
+  },
+  {
+    "id": 884,
+    "orderDateUtc": "2025-06-02T10:50:32.402419Z",
+    "customerId": 338,
+    "currency": "SEK",
+    "totalAmount": 999,
+    "items": [
+      {
+        "id": 1576,
+        "orderId": 884,
+        "productId": 7,
+        "quantity": 1,
+        "price": 999
+      }
+    ],
+    "status": 3
+  },
+  {
+    "id": 840,
+    "orderDateUtc": "2025-06-01T08:25:39.780012Z",
+    "customerId": 324,
+    "currency": "SEK",
+    "totalAmount": 79.45,
+    "items": [
+      {
+        "id": 1506,
+        "orderId": 840,
+        "productId": 63,
+        "quantity": 1,
+        "price": 79.45
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 236,
+    "orderDateUtc": "2025-06-01T04:22:53.928202Z",
+    "customerId": 93,
+    "currency": "SEK",
+    "totalAmount": 397.87,
+    "items": [
+      {
+        "id": 395,
+        "orderId": 236,
+        "productId": 93,
+        "quantity": 1,
+        "price": 397.87
+      }
+    ],
+    "status": 3
+  }
+]
