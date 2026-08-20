@@ -40,12 +40,11 @@ Länkar:
 
 ## Lektion 6:
 * Kursutvärdering (1h)
-* Looker Studio fortsättning (1h)
+* Looker Studio fortsättning: Looker Studio Formula Language (1h)
+* GraphQL vs REST API (1h)
 * LAB-tid, vi använder allt vi lärt oss hittils i praktiken. (2h)
 
 ## Om tid finns:
 
 * Google Cloud Platform (GCP) introduktion (1h)
 * Google Sheets API (1h)
-* GraphQL vs REST API (1h)
-* Looker Studio Formula Language (1h)
