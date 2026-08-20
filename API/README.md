@@ -136,7 +136,7 @@ Var extra uppmärksam på att du behöver skicka med en API-nyckel i din GET req
     * Gör ett pajdiagram i Google Sheets som visar fördelningen av produkter per kategori. Hur kan du gå tillväga för att lösa detta problem? Det finns flera sätt att göra det på.
 
 4. Gå till https://opendata.umea.se/api/explore/v2.1/console
-    * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden. (SWAGGER?!)
+    * Du kan med fördel använda Swagger här för att fokusera på queryparametrarnas värden. Swagger är det gränssnitt som dyker upp på den sidan, där du kan göra GET requests direkt på den sidan utan att gå till Hoppscotch. Du kan också använda Hoppscotch om du vill.
     * Skicka en GET request till /catalog/datasets och välj ut ett dataset som intresserar dig.
     * Använd sedan /catalog/datasetse/{datasetId}/records för att hämta ut data från det datasetet.
     * Testa att använda olika queryparametrar för att filtrera datan. Limit är som standard satt till 10, öka den för att få ut mer data.
