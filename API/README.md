@@ -2,14 +2,16 @@
 
 WebAPIer är ett sätt program kan kommunicera med varandra över internet. API:er används ofta för att hämta data från en server, skicka data till en server eller utföra operationer på servern.
 
-Ofta nämns RESTful API:er. Det är en stil för att designa API:er som använder HTTP-protokollet. REST står för Representational State Transfer. Det som kännetecknar ett REST API är:
+Ofta nämns RESTful API:er. Det är en stil för att designa API:er som använder HTTP-protokollet. Det som kännetecknar ett REST API är:
 * Det använder HTTP-metoder som GET, POST, PUT, DELETE för att utföra operationer.
 * Det använder URL:er för att identifiera resurser.
-* Det returnerar data i format som JSON eller XML.
+* Det returnerar data i format som JSON, XML, CSV eller egentligen vad som helst som tjänsten är till för att leverera (Kartmaterial är tex vanligt).
 
 Några ord som är bra att känna till:
-* **Endpoint**: En URL som representerar en resurs i API:et.
-* **Method**: HTTP-metoden som används för att göra en begäran, t.ex. GET för att hämta data och POST för att skicka data.
+* **URL**: Den kompletta adressen till en resurs på internet. T.ex. `https://api.example.com/users` är en URL som pekar på en lista med användare.
+* **Endpoint**: Den delen av URL:en som pekar på en specifik resurs eller funktion i API:et. T.ex. `/users` kan vara en endpoint som returnerar en lista med användare.
+* **Route**: Den del av URL:en som definierar vägen till en resurs. T.ex. `/users/123` där `123` är ID:t för en specifik användare.
+* **Metod**: HTTP-metoden som används för att göra en begäran, t.ex. GET för att hämta data och POST för att skicka data.
 * **Request**: En begäran som skickas till API:et för att hämta eller skicka data.
 * **Response**: Svar från API:et som innehåller data eller statusinformation.  
 * **Status Code**: En kod som indikerar resultatet av en begäran, t.ex. 200 för OK, 404 för Not Found, 500 för Server Error.
@@ -166,16 +168,17 @@ https://docs.hoppscotch.io/documentation/features/authorization
 * Klistra in eller skriv din funktion i editorn.
 ```javascript
 function importCSVDataFromAPI() {
-  //Hämta CSV från API
+  //Hämta CSV från ett API såhär (du kommer behöva ändra URL:en)
+  Detta kommando skapar ett HTTP GET request, skickar den och tar emot svaret, och lagrar den i variabeln response.
   const response = UrlFetchApp.fetch("https://www.exampleapi.com/csvdata");
 
-  //Ta ut http response bodyn och spara i en textvariabel
+  //Ta ut bodyn från svaret och spara i en textvariabel
   const csvText = response.getContentText("UTF-8");
 
-  //Tolka den mottagna texten till rader (komma-separerad som standard)
+  //Tolka den mottagna texten som låg i bodyn till rader (komma-separerad som standard)
   const rows = Utilities.parseCsv(csvText);
 
-  //Skriv till google sheets
+  //Skriv raderna till google sheets
   const ss = SpreadsheetApp.getActive();
   const sheet = ss.getSheetByName("ApiData") || ss.insertSheet("ApiData");
   sheet.clearContents();
