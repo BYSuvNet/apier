@@ -173,7 +173,7 @@ https://docs.hoppscotch.io/documentation/features/authorization
 ```javascript
 function importCSVDataFromAPI() {
   //Hämta CSV från ett API såhär (du kommer behöva ändra URL:en)
-  Detta kommando skapar ett HTTP GET request, skickar den och tar emot svaret, och lagrar den i variabeln response.
+  // Detta kommando skapar ett HTTP GET request, skickar den och tar emot svaret, och lagrar den i variabeln response.
   const response = UrlFetchApp.fetch("https://www.exampleapi.com/csvdata");
 
   //Ta ut bodyn från svaret och spara i en textvariabel
@@ -181,6 +181,15 @@ function importCSVDataFromAPI() {
 
   //Tolka den mottagna texten som låg i bodyn till rader (komma-separerad som standard)
   const rows = Utilities.parseCsv(csvText);
+
+//Tolka alla prisvärden som decimaltal istället för text
+    for (let i = 1; i < rows.length; i++) {
+  rows[i][3] = parseFloat(rows[i][3]); // pris-kolumnen
+}
+
+// Tolka alla datumvärden som datum istället för text
+for (let i = 1; i < rows.length; i++) {
+  rows[i][7] = new Date(rows[i][7]);
 
   //Skriv raderna till google sheets
   const ss = SpreadsheetApp.getActive();
